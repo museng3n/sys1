@@ -1,0 +1,895 @@
+2025-07-02 11:30:11,115 - INFO - [main:103] - Shutting down the system gracefully...
+2025-07-02 11:30:11,115 - INFO - [partial_closing_manager:47] - Partial Closing Manager shutting down...
+2025-07-02 11:30:11,146 - INFO - [mt5_handler:57] - Disconnected from account 98509933.
+2025-07-02 11:30:11,146 - INFO - [main:109] - System shutdown complete.
+2025-07-02 11:30:17,973 - INFO - [main:37] - Configuration loaded successfully.
+2025-07-02 11:30:17,988 - INFO - [mt5_handler:23] - Attempting to connect to MT5 account 98509933...
+2025-07-02 11:30:17,988 - INFO - [mt5_handler:43] - Connection successful to account 98509933.
+2025-07-02 11:30:18,004 - INFO - [partial_closing_manager:43] - Partial Closing Manager started.
+2025-07-02 11:30:18,004 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-02 11:30:18,863 - INFO - [main:85] - Telegram client connected successfully. Listening for signals...
+2025-07-02 12:08:07,147 - WARNING - [connection:345] - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2025-07-02 12:08:07,147 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 12:08:08,163 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 12:08:09,163 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 12:08:10,163 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 12:08:11,164 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 12:08:12,165 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 12:45:41,688 - WARNING - [connection:345] - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2025-07-02 12:45:51,694 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-02 12:46:02,699 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-02 12:46:13,706 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-02 12:46:24,727 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-02 12:46:35,734 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-02 12:47:39,885 - WARNING - [connection:345] - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2025-07-02 12:47:49,894 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-02 12:48:00,896 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-02 12:48:11,902 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-02 12:48:22,894 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-02 12:48:23,911 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+2025-07-02 12:48:24,912 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 12:48:26,928 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 12:48:27,929 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 12:48:38,936 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-02 12:48:49,943 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-02 12:49:00,954 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-02 14:52:52,396 - INFO - [partial_closing_manager:134] - Order/Position 531183903 (Group: sig_1751240582) no longer active. Removing from management.
+2025-07-02 15:02:12,440 - INFO - [partial_closing_manager:182] - TP1 (0.605) HIT for position 531183891 at price 0.60549.
+2025-07-02 15:02:12,440 - INFO - [partial_closing_manager:193] - TP1 hit triggers securing for entire group sig_1751240571.
+2025-07-02 15:02:12,624 - INFO - [partial_closing_manager:313] - Successfully closed 0.01 lots for position 531183891.
+2025-07-02 15:02:12,624 - INFO - [partial_closing_manager:201] - Executing securing action for group sig_1751240571.
+2025-07-02 15:02:12,780 - INFO - [partial_closing_manager:228] - Successfully secured position 531183891 by moving SL to 0.61.
+2025-07-02 15:02:12,780 - INFO - [partial_closing_manager:210] - Cancelling pending orders for secured group sig_1751240571.
+2025-07-02 15:02:12,952 - INFO - [partial_closing_manager:273] - Successfully deleted pending order 531183893.
+2025-07-02 15:02:14,965 - INFO - [partial_closing_manager:134] - Order/Position 531183893 (Group: sig_1751240571) no longer active. Removing from management.
+2025-07-02 15:21:37,577 - INFO - [partial_closing_manager:134] - Order/Position 531183909 (Group: sig_1751240584) no longer active. Removing from management.
+2025-07-02 15:21:37,577 - INFO - [partial_closing_manager:134] - Order/Position 531183913 (Group: sig_1751240584) no longer active. Removing from management.
+2025-07-02 15:41:57,246 - INFO - [partial_closing_manager:182] - TP2 (0.865) HIT for position 531183803 at price 0.86504.
+2025-07-02 15:41:57,413 - INFO - [partial_closing_manager:313] - Successfully closed 0.01 lots for position 531183803.
+2025-07-02 16:03:45,428 - WARNING - [connection:345] - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2025-07-02 16:03:55,433 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-02 16:04:06,440 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-02 16:04:17,452 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-02 16:04:26,441 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+2025-07-02 16:04:27,447 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:04:28,462 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:04:30,474 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:04:41,539 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-02 16:04:52,556 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-02 16:05:03,563 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-02 16:05:14,573 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-02 16:05:25,586 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-02 16:05:37,614 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-02 16:05:38,616 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:39,631 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:40,632 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:41,647 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:42,652 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:44,654 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:45,654 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:46,655 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:47,655 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:48,657 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:49,672 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:51,688 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:52,689 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:53,690 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:54,693 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:55,704 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:56,720 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:05:58,721 - ERROR - [mtprotosender:412] - Automatic reconnection failed 5 time(s)
+2025-07-02 16:05:58,721 - ERROR - [base_events:1820] - Future exception was never retrieved
+future: <Future finished exception=ConnectionError('Connection to Telegram failed 5 time(s)')>
+ConnectionError: Connection to Telegram failed 5 time(s)
+2025-07-02 16:05:58,753 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-02 16:06:58,772 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-02 16:06:58,775 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:06:59,787 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:07:00,789 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:07:01,789 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:07:02,789 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:07:03,790 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 16:07:04,805 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-02 16:08:04,806 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-02 16:08:05,244 - INFO - [main:85] - Telegram client connected successfully. Listening for signals...
+2025-07-02 17:57:16,788 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-02 17:57:27,808 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-02 17:57:38,823 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-02 17:57:49,837 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-02 17:58:00,857 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-02 17:58:11,864 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-02 17:58:23,417 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+2025-07-02 17:58:24,425 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:58:25,435 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:58:26,444 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:58:27,455 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:58:38,484 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-02 17:58:50,499 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-02 17:59:01,508 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-02 17:59:12,522 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-02 17:59:23,537 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-02 17:59:34,559 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-02 17:59:35,564 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:37,579 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:38,586 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:39,597 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:40,609 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:41,616 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:42,623 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:44,640 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:45,648 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:46,657 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:47,663 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:48,671 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:49,677 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 17:59:51,690 - ERROR - [mtprotosender:412] - Automatic reconnection failed 5 time(s)
+2025-07-02 17:59:51,710 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-02 18:00:51,724 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-02 18:00:51,724 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 18:00:52,732 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 18:00:53,739 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 18:00:54,745 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 18:00:55,751 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 18:00:56,763 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 18:00:57,775 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-02 18:01:57,784 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-02 18:02:07,796 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-02 18:02:18,805 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-02 18:02:29,821 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-02 18:02:31,227 - INFO - [main:85] - Telegram client connected successfully. Listening for signals...
+2025-07-02 18:05:41,145 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-02 18:05:52,155 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-02 18:06:03,176 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-02 18:06:14,195 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-02 18:06:25,209 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-02 20:03:43,289 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-02 20:03:54,291 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-02 20:04:05,295 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-02 20:04:16,299 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-02 20:04:27,099 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+2025-07-02 20:04:28,100 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 20:04:30,102 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 20:04:31,117 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-02 20:04:42,135 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-03 00:01:08,513 - INFO - [partial_closing_manager:182] - TP1 (196.1) HIT for position 532095702 at price 196.088.
+2025-07-03 00:01:08,513 - INFO - [partial_closing_manager:193] - TP1 hit triggers securing for entire group sig_1751380203.
+2025-07-03 00:01:08,820 - INFO - [partial_closing_manager:313] - Successfully closed 0.02 lots for position 532095702.
+2025-07-03 00:01:08,820 - INFO - [partial_closing_manager:201] - Executing securing action for group sig_1751380203.
+2025-07-03 00:01:08,946 - INFO - [partial_closing_manager:228] - Successfully secured position 532095702 by moving SL to 195.591.
+2025-07-03 00:01:08,946 - INFO - [partial_closing_manager:210] - Cancelling pending orders for secured group sig_1751380203.
+2025-07-03 00:01:09,071 - INFO - [partial_closing_manager:273] - Successfully deleted pending order 532095705.
+2025-07-03 00:01:11,078 - INFO - [partial_closing_manager:134] - Order/Position 532095705 (Group: sig_1751380203) no longer active. Removing from management.
+2025-07-03 03:02:57,586 - WARNING - [connection:345] - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2025-07-03 03:02:57,614 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 03:02:58,618 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 03:02:59,655 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 03:03:00,671 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 03:03:01,676 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 03:03:02,677 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 10:10:04,518 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 10:10:05,582 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 10:10:06,822 - WARNING - [mtprotostate:188] - Server resent the older message 7522749501021441025, ignoring
+2025-07-03 10:11:04,892 - INFO - [main:103] - Shutting down the system gracefully...
+2025-07-03 10:11:04,892 - INFO - [partial_closing_manager:47] - Partial Closing Manager shutting down...
+2025-07-03 10:11:04,908 - INFO - [mt5_handler:57] - Disconnected from account 98509933.
+2025-07-03 10:11:04,908 - INFO - [main:109] - System shutdown complete.
+2025-07-03 10:11:15,209 - INFO - [main:37] - Configuration loaded successfully.
+2025-07-03 10:11:15,224 - INFO - [mt5_handler:23] - Attempting to connect to MT5 account 98509933...
+2025-07-03 10:11:16,891 - INFO - [mt5_handler:43] - Connection successful to account 98509933.
+2025-07-03 10:11:16,891 - INFO - [partial_closing_manager:43] - Partial Closing Manager started.
+2025-07-03 10:11:16,891 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 10:11:17,719 - INFO - [main:85] - Telegram client connected successfully. Listening for signals...
+2025-07-03 10:20:22,154 - INFO - [partial_closing_manager:134] - Order/Position 531183858 (Group: sig_1751240564) no longer active. Removing from management.
+2025-07-03 10:20:28,181 - INFO - [partial_closing_manager:134] - Order/Position 531183854 (Group: sig_1751240564) no longer active. Removing from management.
+2025-07-03 11:07:55,135 - INFO - [partial_closing_manager:182] - TP2 (196.7) HIT for position 532095702 at price 196.707.
+2025-07-03 11:07:55,265 - INFO - [partial_closing_manager:313] - Successfully closed 0.02 lots for position 532095702.
+2025-07-03 11:17:41,032 - WARNING - [connection:345] - Server closed the connection: [WinError 121] The semaphore timeout period has expired
+2025-07-03 11:17:51,061 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 11:17:58,597 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+2025-07-03 11:17:59,619 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:18:00,622 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:18:01,635 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:18:02,646 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:18:14,662 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 11:18:25,691 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 11:18:36,712 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-03 11:18:47,727 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-03 11:18:58,727 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-03 11:19:09,745 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-03 11:19:11,749 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:12,759 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:13,764 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:14,772 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:15,779 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:16,794 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:18,809 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:19,824 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:20,837 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:21,839 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:22,839 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:23,851 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:25,854 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:26,859 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:27,864 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:28,874 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:29,879 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:30,889 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:19:32,909 - ERROR - [mtprotosender:412] - Automatic reconnection failed 5 time(s)
+2025-07-03 11:19:32,909 - ERROR - [base_events:1820] - Future exception was never retrieved
+future: <Future finished exception=ConnectionError('Connection to Telegram failed 5 time(s)')>
+ConnectionError: Connection to Telegram failed 5 time(s)
+2025-07-03 11:19:32,939 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 11:20:32,951 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 11:20:42,967 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 11:20:53,979 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 11:21:01,004 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+2025-07-03 11:21:02,009 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:21:03,014 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:21:04,019 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:21:05,034 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 11:22:05,040 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 11:22:15,026 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 11:22:16,035 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:22:17,046 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:22:18,051 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:22:19,061 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:22:20,071 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:22:21,081 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 11:23:21,090 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 11:23:21,090 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:23:22,095 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:23:23,096 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:23:24,105 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:23:25,106 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:23:26,120 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:23:27,130 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 11:24:27,139 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 11:24:27,494 - INFO - [main:85] - Telegram client connected successfully. Listening for signals...
+2025-07-03 11:27:18,713 - INFO - [main:70] - --- New Message Received from Channel -1001552516320 ---
+2025-07-03 11:27:18,713 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-03 11:27:18,725 - WARNING - [signal_parser:26] - --- PARSER FAILED: Could not find a valid symbol/direction pair. ---
+2025-07-03 11:27:18,725 - WARNING - [main:78] - Message did not contain a valid/parsable signal.
+2025-07-03 11:36:01,763 - INFO - [main:70] - --- New Message Received from Channel -1001552516320 ---
+2025-07-03 11:36:01,763 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-03 11:36:01,763 - WARNING - [signal_parser:26] - --- PARSER FAILED: Could not find a valid symbol/direction pair. ---
+2025-07-03 11:36:01,763 - WARNING - [main:78] - Message did not contain a valid/parsable signal.
+2025-07-03 11:42:18,806 - WARNING - [connection:345] - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-03 11:55:37,994 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 11:55:49,012 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 11:56:00,027 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-03 11:56:11,036 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-03 11:56:22,046 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-03 11:56:33,082 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-03 11:56:39,630 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+2025-07-03 11:56:40,631 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:56:41,645 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:56:42,656 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:56:43,666 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:56:54,691 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-03 11:57:06,711 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 11:57:17,730 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 11:57:28,736 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-03 11:57:39,750 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-03 11:57:50,756 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-03 11:57:51,765 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:57:53,786 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:57:54,800 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:57:55,800 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:57:56,815 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:57:57,825 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:57:58,830 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:58:00,852 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:58:01,865 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:58:02,881 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:58:03,895 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:58:04,910 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:58:05,917 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:58:07,940 - ERROR - [mtprotosender:412] - Automatic reconnection failed 5 time(s)
+2025-07-03 11:58:07,950 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 11:59:07,960 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 11:59:07,960 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:59:08,965 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:59:09,980 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:59:10,985 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:59:11,989 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:59:12,990 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 11:59:13,993 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 12:00:13,999 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 12:00:17,958 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+2025-07-03 12:00:18,968 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:00:19,984 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:00:20,999 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:00:22,004 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:00:33,029 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-03 12:00:34,044 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 12:01:34,053 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 12:01:34,053 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:01:35,054 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:01:36,059 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:01:37,064 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:01:38,073 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:01:39,084 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:01:40,089 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 12:02:40,093 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 12:02:40,095 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:02:41,105 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:02:42,105 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:02:43,110 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:02:44,126 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:02:45,126 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 12:02:46,135 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 12:03:46,140 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 12:03:56,155 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 12:04:07,175 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 12:04:18,185 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-03 12:04:29,196 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-03 12:04:40,238 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-03 12:04:51,252 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-03 12:04:52,258 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 12:05:52,268 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 12:06:02,270 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 12:06:13,288 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 12:06:24,308 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-03 12:06:35,343 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-03 12:06:46,363 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-03 12:06:57,382 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-03 12:06:58,387 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 12:07:58,390 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 12:08:08,396 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 12:08:19,416 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 12:08:30,447 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-03 12:08:41,467 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-03 12:08:52,486 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-03 12:09:03,487 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-03 12:09:04,492 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 12:10:04,497 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 12:10:14,512 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 12:10:25,527 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 12:10:36,540 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-03 12:10:47,562 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-03 12:10:58,567 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-03 12:11:09,592 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-03 12:11:10,592 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 12:12:10,598 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 12:12:20,603 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 12:12:21,998 - INFO - [main:85] - Telegram client connected successfully. Listening for signals...
+2025-07-03 15:44:53,541 - INFO - [partial_closing_manager:182] - TP3 (197.3) HIT for position 532095702 at price 197.302.
+2025-07-03 15:44:53,696 - INFO - [partial_closing_manager:313] - Successfully closed 0.02 lots for position 532095702.
+2025-07-03 15:45:17,733 - INFO - [partial_closing_manager:182] - TP1 (95.0) HIT for position 531183840 at price 94.953.
+2025-07-03 15:45:17,733 - INFO - [partial_closing_manager:193] - TP1 hit triggers securing for entire group sig_1751240550.
+2025-07-03 15:45:17,906 - INFO - [partial_closing_manager:313] - Successfully closed 0.01 lots for position 531183840.
+2025-07-03 15:45:17,916 - INFO - [partial_closing_manager:201] - Executing securing action for group sig_1751240550.
+2025-07-03 15:45:18,026 - INFO - [partial_closing_manager:228] - Successfully secured position 531183840 by moving SL to 94.415.
+2025-07-03 15:45:18,026 - INFO - [partial_closing_manager:210] - Cancelling pending orders for secured group sig_1751240550.
+2025-07-03 15:45:18,171 - INFO - [partial_closing_manager:273] - Successfully deleted pending order 531183841.
+2025-07-03 15:45:20,172 - INFO - [partial_closing_manager:134] - Order/Position 531183841 (Group: sig_1751240550) no longer active. Removing from management.
+2025-07-03 17:01:11,689 - INFO - [partial_closing_manager:182] - TP4 (197.9) HIT for position 532095702 at price 197.903.
+2025-07-03 17:01:11,828 - INFO - [partial_closing_manager:313] - Successfully closed 0.02 lots for position 532095702.
+2025-07-03 17:01:13,833 - INFO - [partial_closing_manager:134] - Order/Position 532095702 (Group: sig_1751380203) no longer active. Removing from management.
+2025-07-03 17:48:37,759 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 17:48:48,771 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 17:48:53,096 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+2025-07-03 17:48:54,106 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:48:55,121 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:48:56,126 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:49:08,145 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 17:49:19,164 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 17:49:30,163 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-03 17:49:41,181 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-03 17:49:52,213 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-03 17:50:03,226 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-03 17:50:05,236 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:06,241 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:07,246 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:08,261 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:09,271 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:10,283 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:12,306 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:13,306 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:14,313 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:15,326 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:16,341 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:17,351 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:19,371 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:20,371 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:21,381 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:22,391 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:23,406 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:24,407 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: OSError: [WinError 1232] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-03 17:50:26,436 - ERROR - [mtprotosender:412] - Automatic reconnection failed 5 time(s)
+2025-07-03 17:50:26,450 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 17:51:26,463 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 17:51:36,473 - WARNING - [mtprotosender:288] - Attempt 1 at connecting failed: TimeoutError: 
+2025-07-03 17:51:47,493 - WARNING - [mtprotosender:288] - Attempt 2 at connecting failed: TimeoutError: 
+2025-07-03 17:51:58,513 - WARNING - [mtprotosender:288] - Attempt 3 at connecting failed: TimeoutError: 
+2025-07-03 17:52:09,528 - WARNING - [mtprotosender:288] - Attempt 4 at connecting failed: TimeoutError: 
+2025-07-03 17:52:20,533 - WARNING - [mtprotosender:288] - Attempt 5 at connecting failed: TimeoutError: 
+2025-07-03 17:52:31,543 - WARNING - [mtprotosender:288] - Attempt 6 at connecting failed: TimeoutError: 
+2025-07-03 17:52:32,558 - WARNING - [main:89] - Telegram connection lost: Connection to Telegram failed 5 time(s). The client will attempt to reconnect automatically.
+2025-07-03 17:53:32,572 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-03 17:53:39,967 - INFO - [main:85] - Telegram client connected successfully. Listening for signals...
+2025-07-04 06:08:51,684 - INFO - [partial_closing_manager:182] - TP1 (106.4) HIT for position 531183827 at price 106.444.
+2025-07-04 06:08:51,684 - INFO - [partial_closing_manager:193] - TP1 hit triggers securing for entire group sig_1751240544.
+2025-07-04 06:08:51,834 - INFO - [partial_closing_manager:313] - Successfully closed 0.01 lots for position 531183827.
+2025-07-04 06:08:51,834 - INFO - [partial_closing_manager:201] - Executing securing action for group sig_1751240544.
+2025-07-04 06:08:51,965 - INFO - [partial_closing_manager:228] - Successfully secured position 531183827 by moving SL to 106.9.
+2025-07-04 06:08:51,965 - INFO - [partial_closing_manager:210] - Cancelling pending orders for secured group sig_1751240544.
+2025-07-04 06:08:52,089 - INFO - [partial_closing_manager:273] - Successfully deleted pending order 531183828.
+2025-07-04 06:08:54,093 - INFO - [partial_closing_manager:134] - Order/Position 531183828 (Group: sig_1751240544) no longer active. Removing from management.
+2025-07-04 22:34:12,906 - INFO - [partial_closing_manager:182] - TP1 (181.7) HIT for position 531183817 at price 181.749.
+2025-07-04 22:34:12,906 - INFO - [partial_closing_manager:193] - TP1 hit triggers securing for entire group sig_1751240541.
+2025-07-04 22:34:13,054 - INFO - [partial_closing_manager:313] - Successfully closed 0.01 lots for position 531183817.
+2025-07-04 22:34:13,056 - INFO - [partial_closing_manager:201] - Executing securing action for group sig_1751240541.
+2025-07-04 22:34:13,186 - INFO - [partial_closing_manager:228] - Successfully secured position 531183817 by moving SL to 182.205.
+2025-07-04 22:34:13,186 - INFO - [partial_closing_manager:210] - Cancelling pending orders for secured group sig_1751240541.
+2025-07-04 22:34:13,316 - INFO - [partial_closing_manager:273] - Successfully deleted pending order 531183818.
+2025-07-04 22:34:15,317 - INFO - [partial_closing_manager:134] - Order/Position 531183818 (Group: sig_1751240541) no longer active. Removing from management.
+2025-07-07 01:05:01,071 - INFO - [main:37] - Configuration loaded successfully.
+2025-07-07 01:05:01,103 - INFO - [mt5_handler:23] - Attempting to connect to MT5 account 98509933...
+2025-07-07 01:05:01,103 - ERROR - [mt5_handler:50] - MT5 initialize failed for 98509933 (Attempt 1/3). Error: (-6, 'Terminal: Authorization failed')
+2025-07-07 01:05:03,117 - ERROR - [mt5_handler:50] - MT5 initialize failed for 98509933 (Attempt 2/3). Error: (-6, 'Terminal: Authorization failed')
+2025-07-07 01:05:05,118 - ERROR - [mt5_handler:50] - MT5 initialize failed for 98509933 (Attempt 3/3). Error: (-6, 'Terminal: Authorization failed')
+2025-07-07 01:05:07,120 - ERROR - [main:51] - Could not start handler for account 98509933: Failed to connect to MT5 account 98509933
+2025-07-07 01:05:07,120 - CRITICAL - [main:54] - No MT5 accounts connected. The system will not execute trades. Exiting.
+2025-07-07 01:05:21,404 - INFO - [main:37] - Configuration loaded successfully.
+2025-07-07 01:05:21,404 - INFO - [mt5_handler:23] - Attempting to connect to MT5 account 98509933...
+2025-07-07 01:05:21,420 - ERROR - [mt5_handler:50] - MT5 initialize failed for 98509933 (Attempt 1/3). Error: (-6, 'Terminal: Authorization failed')
+2025-07-07 01:05:23,421 - INFO - [mt5_handler:43] - Connection successful to account 98509933.
+2025-07-07 01:05:23,421 - INFO - [partial_closing_manager:43] - Partial Closing Manager started.
+2025-07-07 01:05:23,466 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-07 01:05:24,303 - INFO - [main:85] - Telegram client connected successfully. Listening for signals...
+2025-07-07 01:05:33,918 - INFO - [main:103] - Shutting down the system gracefully...
+2025-07-07 01:05:33,918 - INFO - [partial_closing_manager:47] - Partial Closing Manager shutting down...
+2025-07-07 01:05:33,949 - INFO - [mt5_handler:57] - Disconnected from account 98509933.
+2025-07-07 01:05:33,949 - INFO - [main:109] - System shutdown complete.
+2025-07-07 01:05:42,343 - INFO - [main:37] - Configuration loaded successfully.
+2025-07-07 01:05:42,359 - INFO - [mt5_handler:23] - Attempting to connect to MT5 account 98509933...
+2025-07-07 01:05:42,359 - INFO - [mt5_handler:43] - Connection successful to account 98509933.
+2025-07-07 01:05:42,359 - INFO - [partial_closing_manager:43] - Partial Closing Manager started.
+2025-07-07 01:05:42,375 - INFO - [main:83] - Attempting to connect to Telegram...
+2025-07-07 01:05:43,239 - INFO - [main:85] - Telegram client connected successfully. Listening for signals...
+2025-07-07 01:07:02,736 - INFO - [partial_closing_manager:134] - Order/Position 531183798 (Group: sig_1751240533) no longer active. Removing from management.
+2025-07-07 01:07:02,736 - INFO - [partial_closing_manager:134] - Order/Position 531183799 (Group: sig_1751240533) no longer active. Removing from management.
+2025-07-07 01:07:02,736 - INFO - [partial_closing_manager:134] - Order/Position 531183801 (Group: sig_1751240533) no longer active. Removing from management.
+2025-07-07 01:07:05,455 - INFO - [partial_closing_manager:134] - Order/Position 531183802 (Group: sig_1751240533) no longer active. Removing from management.
+2025-07-07 01:07:05,455 - INFO - [partial_closing_manager:134] - Order/Position 531183812 (Group: sig_1751240539) no longer active. Removing from management.
+2025-07-07 01:07:05,455 - INFO - [partial_closing_manager:134] - Order/Position 531183813 (Group: sig_1751240540) no longer active. Removing from management.
+2025-07-07 01:07:05,455 - INFO - [partial_closing_manager:134] - Order/Position 531183816 (Group: sig_1751240540) no longer active. Removing from management.
+2025-07-07 01:07:05,455 - INFO - [partial_closing_manager:134] - Order/Position 531183820 (Group: sig_1751240538) no longer active. Removing from management.
+2025-07-07 01:07:05,455 - INFO - [partial_closing_manager:134] - Order/Position 531183822 (Group: sig_1751240538) no longer active. Removing from management.
+2025-07-07 01:07:05,455 - INFO - [partial_closing_manager:134] - Order/Position 531183824 (Group: sig_1751240542) no longer active. Removing from management.
+2025-07-07 01:07:05,455 - INFO - [partial_closing_manager:134] - Order/Position 531183825 (Group: sig_1751240542) no longer active. Removing from management.
+2025-07-07 01:07:05,455 - INFO - [partial_closing_manager:134] - Order/Position 531183831 (Group: sig_1751240545) no longer active. Removing from management.
+2025-07-07 01:07:09,089 - INFO - [partial_closing_manager:134] - Order/Position 531183842 (Group: sig_1751240552) no longer active. Removing from management.
+2025-07-07 01:07:09,089 - INFO - [partial_closing_manager:134] - Order/Position 531183843 (Group: sig_1751240552) no longer active. Removing from management.
+2025-07-07 01:07:09,089 - INFO - [partial_closing_manager:134] - Order/Position 531183845 (Group: sig_1751240554) no longer active. Removing from management.
+2025-07-07 01:07:09,089 - INFO - [partial_closing_manager:134] - Order/Position 531183846 (Group: sig_1751240554) no longer active. Removing from management.
+2025-07-07 01:07:09,089 - INFO - [partial_closing_manager:134] - Order/Position 531183847 (Group: sig_1751240546) no longer active. Removing from management.
+2025-07-07 01:07:09,089 - INFO - [partial_closing_manager:134] - Order/Position 531183850 (Group: sig_1751240546) no longer active. Removing from management.
+2025-07-07 01:07:12,247 - INFO - [partial_closing_manager:134] - Order/Position 531183880 (Group: sig_1751240567) no longer active. Removing from management.
+2025-07-07 01:07:12,263 - INFO - [partial_closing_manager:134] - Order/Position 531183883 (Group: sig_1751240567) no longer active. Removing from management.
+2025-07-07 01:07:12,263 - INFO - [partial_closing_manager:134] - Order/Position 531183886 (Group: sig_1751240568) no longer active. Removing from management.
+2025-07-07 01:07:12,263 - INFO - [partial_closing_manager:134] - Order/Position 531183887 (Group: sig_1751240568) no longer active. Removing from management.
+2025-07-07 01:07:12,263 - INFO - [partial_closing_manager:134] - Order/Position 531183889 (Group: sig_1751240569) no longer active. Removing from management.
+2025-07-07 01:07:12,263 - INFO - [partial_closing_manager:134] - Order/Position 531183890 (Group: sig_1751240569) no longer active. Removing from management.
+2025-07-07 01:07:12,263 - INFO - [partial_closing_manager:134] - Order/Position 531183915 (Group: sig_1751240586) no longer active. Removing from management.
+2025-07-07 01:07:12,263 - INFO - [partial_closing_manager:134] - Order/Position 531183917 (Group: sig_1751240586) no longer active. Removing from management.
+2025-07-07 01:07:12,263 - INFO - [partial_closing_manager:134] - Order/Position 531183918 (Group: sig_1751240578) no longer active. Removing from management.
+2025-07-07 01:07:12,263 - INFO - [partial_closing_manager:134] - Order/Position 531183921 (Group: sig_1751240578) no longer active. Removing from management.
+2025-07-07 01:07:16,108 - INFO - [partial_closing_manager:134] - Order/Position 531183932 (Group: sig_1751240575) no longer active. Removing from management.
+2025-07-07 01:07:16,108 - INFO - [partial_closing_manager:134] - Order/Position 531183934 (Group: sig_1751240575) no longer active. Removing from management.
+2025-07-07 01:07:16,108 - INFO - [partial_closing_manager:134] - Order/Position 531183936 (Group: sig_1751240576) no longer active. Removing from management.
+2025-07-07 01:07:16,108 - INFO - [partial_closing_manager:134] - Order/Position 531183938 (Group: sig_1751240580) no longer active. Removing from management.
+2025-07-07 01:07:16,108 - INFO - [partial_closing_manager:134] - Order/Position 531183939 (Group: sig_1751240580) no longer active. Removing from management.
+2025-07-07 01:07:16,108 - INFO - [partial_closing_manager:134] - Order/Position 532119609 (Group: sig_1751382864) no longer active. Removing from management.
+2025-07-07 01:07:16,108 - INFO - [partial_closing_manager:134] - Order/Position 532119610 (Group: sig_1751382864) no longer active. Removing from management.
+2025-07-07 01:07:16,108 - INFO - [partial_closing_manager:134] - Order/Position 532123244 (Group: sig_1751383079) no longer active. Removing from management.
+2025-07-07 01:07:16,108 - INFO - [partial_closing_manager:134] - Order/Position 532123252 (Group: sig_1751383079) no longer active. Removing from management.
+2025-07-07 01:07:16,123 - INFO - [partial_closing_manager:134] - Order/Position 532124823 (Group: sig_1751383295) no longer active. Removing from management.
+2025-07-07 01:07:18,252 - INFO - [partial_closing_manager:134] - Order/Position 532124824 (Group: sig_1751383295) no longer active. Removing from management.
+2025-07-07 01:08:11,613 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:11,628 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:11,628 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for OILCash. ---
+2025-07-07 01:08:11,628 - INFO - [main:74] - Signal parsed for OILCash. Distributing to all active MT5 handlers.
+2025-07-07 01:08:11,628 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839691...
+2025-07-07 01:08:11,644 - INFO - [mt5_handler:138] - Volume for 98509933 (OILCash): Risk=47.41, SL Dist=1.1999999999999886, Raw Vol=0.3951, Final Vol=0.40 (0.10 per TP over 4 TPs)
+2025-07-07 01:08:11,754 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676205, Type: BUY_LIMIT, Symbol: OILCash
+2025-07-07 01:08:11,754 - INFO - [mt5_handler:138] - Volume for 98509933 (OILCash): Risk=47.41, SL Dist=0.5999999999999943, Raw Vol=0.7902, Final Vol=0.80 (0.20 per TP over 4 TPs)
+2025-07-07 01:08:12,020 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676206, Type: BUY_LIMIT, Symbol: OILCash
+2025-07-07 01:08:12,020 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839691.
+2025-07-07 01:08:12,223 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:12,223 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:12,223 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for JP225Cash. ---
+2025-07-07 01:08:12,223 - INFO - [main:74] - Signal parsed for JP225Cash. Distributing to all active MT5 handlers.
+2025-07-07 01:08:12,223 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839692...
+2025-07-07 01:08:12,223 - INFO - [mt5_handler:138] - Volume for 98509933 (JP225Cash): Risk=47.41, SL Dist=400.0, Raw Vol=0.1185, Final Vol=0.40 (0.10 per TP over 4 TPs)
+2025-07-07 01:08:12,505 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676207, Type: SELL_LIMIT, Symbol: JP225Cash
+2025-07-07 01:08:12,520 - INFO - [mt5_handler:138] - Volume for 98509933 (JP225Cash): Risk=47.41, SL Dist=200.0, Raw Vol=0.2371, Final Vol=0.40 (0.10 per TP over 4 TPs)
+2025-07-07 01:08:12,520 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:12,755 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676208, Type: SELL_LIMIT, Symbol: JP225Cash
+2025-07-07 01:08:12,755 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:12,755 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839692.
+2025-07-07 01:08:12,755 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for JP225Cash. ---
+2025-07-07 01:08:12,755 - INFO - [partial_closing_manager:112] - Order 533676205 (Group sig_1751839691) registered for management.
+2025-07-07 01:08:12,755 - INFO - [main:74] - Signal parsed for JP225Cash. Distributing to all active MT5 handlers.
+2025-07-07 01:08:12,755 - INFO - [partial_closing_manager:112] - Order 533676206 (Group sig_1751839691) registered for management.
+2025-07-07 01:08:12,755 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839692...
+2025-07-07 01:08:12,755 - INFO - [partial_closing_manager:112] - Order 533676207 (Group sig_1751839692) registered for management.
+2025-07-07 01:08:12,755 - INFO - [mt5_handler:138] - Volume for 98509933 (JP225Cash): Risk=47.41, SL Dist=400.0, Raw Vol=0.1185, Final Vol=0.40 (0.10 per TP over 4 TPs)
+2025-07-07 01:08:12,755 - INFO - [partial_closing_manager:112] - Order 533676208 (Group sig_1751839692) registered for management.
+2025-07-07 01:08:12,880 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676209, Type: BUY_LIMIT, Symbol: JP225Cash
+2025-07-07 01:08:12,880 - INFO - [mt5_handler:138] - Volume for 98509933 (JP225Cash): Risk=47.41, SL Dist=200.0, Raw Vol=0.2371, Final Vol=0.40 (0.10 per TP over 4 TPs)
+2025-07-07 01:08:13,083 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676210, Type: BUY_LIMIT, Symbol: JP225Cash
+2025-07-07 01:08:13,083 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839692.
+2025-07-07 01:08:13,162 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:13,162 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:13,162 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for 40. ---
+2025-07-07 01:08:13,162 - INFO - [main:74] - Signal parsed for 40. Distributing to all active MT5 handlers.
+2025-07-07 01:08:13,162 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839693...
+2025-07-07 01:08:13,162 - ERROR - [mt5_handler:101] - Failed to get symbol_info for 40 in lot calculation.
+2025-07-07 01:08:13,162 - ERROR - [mt5_handler:169] - Invalid volume calculated (None) for 40. Order cancelled.
+2025-07-07 01:08:13,162 - ERROR - [mt5_handler:101] - Failed to get symbol_info for 40 in lot calculation.
+2025-07-07 01:08:13,162 - ERROR - [mt5_handler:169] - Invalid volume calculated (None) for 40. Order cancelled.
+2025-07-07 01:08:13,162 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839693.
+2025-07-07 01:08:13,490 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:13,490 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:13,490 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for US100Cash. ---
+2025-07-07 01:08:13,490 - INFO - [main:74] - Signal parsed for US100Cash. Distributing to all active MT5 handlers.
+2025-07-07 01:08:13,490 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839693...
+2025-07-07 01:08:13,490 - INFO - [mt5_handler:138] - Volume for 98509933 (US100Cash): Risk=47.41, SL Dist=500.0, Raw Vol=0.0948, Final Vol=0.40 (0.10 per TP over 4 TPs)
+2025-07-07 01:08:14,083 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676211, Type: BUY_LIMIT, Symbol: US100Cash
+2025-07-07 01:08:14,083 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:14,083 - INFO - [mt5_handler:138] - Volume for 98509933 (US100Cash): Risk=47.41, SL Dist=300.0, Raw Vol=0.1580, Final Vol=0.40 (0.10 per TP over 4 TPs)
+2025-07-07 01:08:14,083 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:14,365 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676215, Type: BUY_LIMIT, Symbol: US100Cash
+2025-07-07 01:08:14,365 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for XAUUSD. ---
+2025-07-07 01:08:14,365 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839693.
+2025-07-07 01:08:14,365 - INFO - [main:74] - Signal parsed for XAUUSD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:14,365 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839694...
+2025-07-07 01:08:14,365 - ERROR - [mt5_handler:101] - Failed to get symbol_info for XAUUSD in lot calculation.
+2025-07-07 01:08:14,365 - ERROR - [mt5_handler:169] - Invalid volume calculated (None) for XAUUSD. Order cancelled.
+2025-07-07 01:08:14,365 - ERROR - [mt5_handler:101] - Failed to get symbol_info for XAUUSD in lot calculation.
+2025-07-07 01:08:14,365 - ERROR - [mt5_handler:169] - Invalid volume calculated (None) for XAUUSD. Order cancelled.
+2025-07-07 01:08:14,365 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839694.
+2025-07-07 01:08:14,458 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:14,458 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:14,458 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for US30Cash. ---
+2025-07-07 01:08:14,458 - INFO - [main:74] - Signal parsed for US30Cash. Distributing to all active MT5 handlers.
+2025-07-07 01:08:14,458 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839694...
+2025-07-07 01:08:14,458 - INFO - [mt5_handler:138] - Volume for 98509933 (US30Cash): Risk=47.41, SL Dist=400.0, Raw Vol=0.1185, Final Vol=0.40 (0.10 per TP over 4 TPs)
+2025-07-07 01:08:14,584 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676218, Type: BUY_LIMIT, Symbol: US30Cash
+2025-07-07 01:08:14,599 - INFO - [mt5_handler:138] - Volume for 98509933 (US30Cash): Risk=47.41, SL Dist=200.0, Raw Vol=0.2371, Final Vol=0.40 (0.10 per TP over 4 TPs)
+2025-07-07 01:08:14,849 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676221, Type: BUY_LIMIT, Symbol: US30Cash
+2025-07-07 01:08:14,849 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839694.
+2025-07-07 01:08:14,865 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:14,865 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:14,865 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for USDJPY. ---
+2025-07-07 01:08:14,865 - INFO - [main:74] - Signal parsed for USDJPY. Distributing to all active MT5 handlers.
+2025-07-07 01:08:14,865 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839694...
+2025-07-07 01:08:14,865 - INFO - [mt5_handler:138] - Volume for 98509933 (USDJPY): Risk=47.41, SL Dist=1.1999999999999886, Raw Vol=0.0571, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:15,100 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676224, Type: BUY_LIMIT, Symbol: USDJPY
+2025-07-07 01:08:15,100 - INFO - [mt5_handler:138] - Volume for 98509933 (USDJPY): Risk=47.41, SL Dist=0.5999999999999943, Raw Vol=0.1143, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:15,591 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676228, Type: BUY_LIMIT, Symbol: USDJPY
+2025-07-07 01:08:15,591 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839694.
+2025-07-07 01:08:15,591 - INFO - [partial_closing_manager:112] - Order 533676209 (Group sig_1751839692) registered for management.
+2025-07-07 01:08:15,591 - INFO - [partial_closing_manager:112] - Order 533676210 (Group sig_1751839692) registered for management.
+2025-07-07 01:08:15,591 - INFO - [partial_closing_manager:112] - Order 533676211 (Group sig_1751839693) registered for management.
+2025-07-07 01:08:15,591 - INFO - [partial_closing_manager:112] - Order 533676215 (Group sig_1751839693) registered for management.
+2025-07-07 01:08:15,591 - INFO - [partial_closing_manager:112] - Order 533676218 (Group sig_1751839694) registered for management.
+2025-07-07 01:08:15,591 - INFO - [partial_closing_manager:112] - Order 533676221 (Group sig_1751839694) registered for management.
+2025-07-07 01:08:15,591 - INFO - [partial_closing_manager:112] - Order 533676224 (Group sig_1751839694) registered for management.
+2025-07-07 01:08:15,591 - INFO - [partial_closing_manager:112] - Order 533676228 (Group sig_1751839694) registered for management.
+2025-07-07 01:08:15,920 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:15,920 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:15,920 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for USDJPY. ---
+2025-07-07 01:08:15,920 - INFO - [main:74] - Signal parsed for USDJPY. Distributing to all active MT5 handlers.
+2025-07-07 01:08:15,920 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:15,920 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839695...
+2025-07-07 01:08:15,920 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:15,920 - INFO - [mt5_handler:138] - Volume for 98509933 (USDJPY): Risk=47.41, SL Dist=1.200000000000017, Raw Vol=0.0571, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:15,920 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for USDCAD. ---
+2025-07-07 01:08:16,576 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676241, Type: SELL_LIMIT, Symbol: USDJPY
+2025-07-07 01:08:16,576 - INFO - [main:74] - Signal parsed for USDCAD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:16,576 - INFO - [mt5_handler:138] - Volume for 98509933 (USDJPY): Risk=47.41, SL Dist=0.6000000000000227, Raw Vol=0.1143, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:16,821 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676243, Type: SELL_LIMIT, Symbol: USDJPY
+2025-07-07 01:08:16,821 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:16,821 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839695.
+2025-07-07 01:08:16,821 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:16,821 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for USDCAD. ---
+2025-07-07 01:08:16,821 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839695...
+2025-07-07 01:08:16,821 - INFO - [main:74] - Signal parsed for USDCAD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:16,821 - INFO - [mt5_handler:138] - Volume for 98509933 (USDCAD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0538, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:16,931 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676244, Type: BUY_LIMIT, Symbol: USDCAD
+2025-07-07 01:08:16,946 - INFO - [mt5_handler:138] - Volume for 98509933 (USDCAD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.1075, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:17,103 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676246, Type: BUY_LIMIT, Symbol: USDCAD
+2025-07-07 01:08:17,103 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839695.
+2025-07-07 01:08:17,103 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:17,118 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:17,118 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for NZDJPY. ---
+2025-07-07 01:08:17,118 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839696...
+2025-07-07 01:08:17,118 - INFO - [main:74] - Signal parsed for NZDJPY. Distributing to all active MT5 handlers.
+2025-07-07 01:08:17,118 - INFO - [mt5_handler:138] - Volume for 98509933 (USDCAD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0538, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:17,368 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676247, Type: SELL_LIMIT, Symbol: USDCAD
+2025-07-07 01:08:17,368 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:17,368 - INFO - [mt5_handler:138] - Volume for 98509933 (USDCAD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.1075, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:17,368 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:17,665 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676250, Type: SELL_LIMIT, Symbol: USDCAD
+2025-07-07 01:08:17,665 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for NZDCHF. ---
+2025-07-07 01:08:17,665 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839696.
+2025-07-07 01:08:17,665 - INFO - [main:74] - Signal parsed for NZDCHF. Distributing to all active MT5 handlers.
+2025-07-07 01:08:17,665 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839697...
+2025-07-07 01:08:17,665 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:17,665 - INFO - [mt5_handler:138] - Volume for 98509933 (NZDJPY): Risk=47.41, SL Dist=1.2000000000000028, Raw Vol=0.0571, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:17,665 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:17,884 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676254, Type: SELL_LIMIT, Symbol: NZDJPY
+2025-07-07 01:08:17,884 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for NZDCHF. ---
+2025-07-07 01:08:17,884 - INFO - [mt5_handler:138] - Volume for 98509933 (NZDJPY): Risk=47.41, SL Dist=0.6000000000000085, Raw Vol=0.1143, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:17,884 - INFO - [main:74] - Signal parsed for NZDCHF. Distributing to all active MT5 handlers.
+2025-07-07 01:08:18,165 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676256, Type: SELL_LIMIT, Symbol: NZDJPY
+2025-07-07 01:08:18,165 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839697.
+2025-07-07 01:08:18,165 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839697...
+2025-07-07 01:08:18,165 - INFO - [mt5_handler:138] - Volume for 98509933 (NZDCHF): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0314, Final Vol=0.04 (0.01 per TP over 4 TPs)
+2025-07-07 01:08:18,290 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676259, Type: SELL_LIMIT, Symbol: NZDCHF
+2025-07-07 01:08:18,306 - INFO - [mt5_handler:138] - Volume for 98509933 (NZDCHF): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.0628, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:18,431 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676265, Type: SELL_LIMIT, Symbol: NZDCHF
+2025-07-07 01:08:18,431 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839697.
+2025-07-07 01:08:18,431 - INFO - [partial_closing_manager:112] - Order 533676241 (Group sig_1751839695) registered for management.
+2025-07-07 01:08:18,431 - INFO - [partial_closing_manager:112] - Order 533676243 (Group sig_1751839695) registered for management.
+2025-07-07 01:08:18,431 - INFO - [partial_closing_manager:112] - Order 533676244 (Group sig_1751839695) registered for management.
+2025-07-07 01:08:18,431 - INFO - [partial_closing_manager:112] - Order 533676246 (Group sig_1751839695) registered for management.
+2025-07-07 01:08:18,431 - INFO - [partial_closing_manager:112] - Order 533676247 (Group sig_1751839696) registered for management.
+2025-07-07 01:08:18,431 - INFO - [partial_closing_manager:112] - Order 533676250 (Group sig_1751839696) registered for management.
+2025-07-07 01:08:18,431 - INFO - [partial_closing_manager:112] - Order 533676254 (Group sig_1751839697) registered for management.
+2025-07-07 01:08:18,431 - INFO - [partial_closing_manager:112] - Order 533676256 (Group sig_1751839697) registered for management.
+2025-07-07 01:08:18,431 - INFO - [partial_closing_manager:112] - Order 533676259 (Group sig_1751839697) registered for management.
+2025-07-07 01:08:18,431 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839697...
+2025-07-07 01:08:18,431 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:18,431 - INFO - [partial_closing_manager:112] - Order 533676265 (Group sig_1751839697) registered for management.
+2025-07-07 01:08:18,431 - INFO - [mt5_handler:138] - Volume for 98509933 (NZDCHF): Risk=47.41, SL Dist=0.011999999999999955, Raw Vol=0.0314, Final Vol=0.04 (0.01 per TP over 4 TPs)
+2025-07-07 01:08:18,431 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:18,853 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676292, Type: BUY_LIMIT, Symbol: NZDCHF
+2025-07-07 01:08:18,853 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for GBPUSD. ---
+2025-07-07 01:08:18,869 - INFO - [mt5_handler:138] - Volume for 98509933 (NZDCHF): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.0628, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:18,869 - INFO - [main:74] - Signal parsed for GBPUSD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:19,134 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676500, Type: BUY_LIMIT, Symbol: NZDCHF
+2025-07-07 01:08:19,134 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839697.
+2025-07-07 01:08:19,134 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:19,150 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839698...
+2025-07-07 01:08:19,150 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:19,150 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPUSD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0395, Final Vol=0.04 (0.01 per TP over 4 TPs)
+2025-07-07 01:08:19,150 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for GBPUSD. ---
+2025-07-07 01:08:19,384 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676618, Type: BUY_LIMIT, Symbol: GBPUSD
+2025-07-07 01:08:19,384 - INFO - [main:74] - Signal parsed for GBPUSD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:19,384 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPUSD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.0790, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:19,618 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676622, Type: BUY_LIMIT, Symbol: GBPUSD
+2025-07-07 01:08:19,618 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839698.
+2025-07-07 01:08:19,618 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839699...
+2025-07-07 01:08:19,618 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPUSD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0395, Final Vol=0.04 (0.01 per TP over 4 TPs)
+2025-07-07 01:08:19,775 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676629, Type: SELL_LIMIT, Symbol: GBPUSD
+2025-07-07 01:08:19,775 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPUSD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.0790, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:19,900 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676631, Type: SELL_LIMIT, Symbol: GBPUSD
+2025-07-07 01:08:19,900 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839699.
+2025-07-07 01:08:19,916 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:19,916 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:19,916 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for GBPNZD. ---
+2025-07-07 01:08:19,916 - INFO - [main:74] - Signal parsed for GBPNZD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:19,916 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839699...
+2025-07-07 01:08:19,916 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:19,916 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:19,916 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPNZD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0653, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:19,916 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for GBPJPY. ---
+2025-07-07 01:08:20,337 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676634, Type: SELL_LIMIT, Symbol: GBPNZD
+2025-07-07 01:08:20,337 - INFO - [main:74] - Signal parsed for GBPJPY. Distributing to all active MT5 handlers.
+2025-07-07 01:08:20,337 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPNZD): Risk=47.41, SL Dist=0.005999999999999783, Raw Vol=0.1306, Final Vol=0.16 (0.04 per TP over 4 TPs)
+2025-07-07 01:08:20,603 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676637, Type: SELL_LIMIT, Symbol: GBPNZD
+2025-07-07 01:08:20,603 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839699.
+2025-07-07 01:08:20,603 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839699...
+2025-07-07 01:08:20,603 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:20,603 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPJPY): Risk=47.41, SL Dist=1.200000000000017, Raw Vol=0.0571, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:20,603 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:20,775 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676640, Type: BUY_LIMIT, Symbol: GBPJPY
+2025-07-07 01:08:20,775 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for GBPCAD. ---
+2025-07-07 01:08:20,775 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPJPY): Risk=47.41, SL Dist=0.6000000000000227, Raw Vol=0.1143, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:20,775 - INFO - [main:74] - Signal parsed for GBPCAD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:21,041 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676642, Type: BUY_LIMIT, Symbol: GBPJPY
+2025-07-07 01:08:21,041 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839699.
+2025-07-07 01:08:21,041 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839700...
+2025-07-07 01:08:21,041 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPCAD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0538, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:21,463 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676643, Type: BUY_LIMIT, Symbol: GBPCAD
+2025-07-07 01:08:21,463 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPCAD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.1075, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:21,588 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676645, Type: BUY_LIMIT, Symbol: GBPCAD
+2025-07-07 01:08:21,588 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839700.
+2025-07-07 01:08:21,588 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:21,588 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:21,588 - INFO - [partial_closing_manager:112] - Order 533676292 (Group sig_1751839697) registered for management.
+2025-07-07 01:08:21,588 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for GBPCAD. ---
+2025-07-07 01:08:21,588 - INFO - [partial_closing_manager:112] - Order 533676500 (Group sig_1751839697) registered for management.
+2025-07-07 01:08:21,588 - INFO - [main:74] - Signal parsed for GBPCAD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:21,588 - INFO - [partial_closing_manager:112] - Order 533676618 (Group sig_1751839698) registered for management.
+2025-07-07 01:08:21,588 - INFO - [partial_closing_manager:112] - Order 533676622 (Group sig_1751839698) registered for management.
+2025-07-07 01:08:21,588 - INFO - [partial_closing_manager:112] - Order 533676629 (Group sig_1751839699) registered for management.
+2025-07-07 01:08:21,588 - INFO - [partial_closing_manager:112] - Order 533676631 (Group sig_1751839699) registered for management.
+2025-07-07 01:08:21,588 - INFO - [partial_closing_manager:112] - Order 533676634 (Group sig_1751839699) registered for management.
+2025-07-07 01:08:21,588 - INFO - [partial_closing_manager:112] - Order 533676637 (Group sig_1751839699) registered for management.
+2025-07-07 01:08:21,588 - INFO - [partial_closing_manager:112] - Order 533676640 (Group sig_1751839699) registered for management.
+2025-07-07 01:08:21,588 - INFO - [partial_closing_manager:112] - Order 533676642 (Group sig_1751839699) registered for management.
+2025-07-07 01:08:21,604 - INFO - [partial_closing_manager:112] - Order 533676643 (Group sig_1751839700) registered for management.
+2025-07-07 01:08:21,604 - INFO - [partial_closing_manager:112] - Order 533676645 (Group sig_1751839700) registered for management.
+2025-07-07 01:08:21,604 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839701...
+2025-07-07 01:08:21,604 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPCAD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0538, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:21,620 - ERROR - [mt5_handler:194] - Order FAILED on Account 98509933! Symbol: GBPCAD, Type: SELL_LIMIT. Code: 10015, Comment: Invalid price
+2025-07-07 01:08:21,620 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPCAD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.1075, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:21,635 - ERROR - [mt5_handler:194] - Order FAILED on Account 98509933! Symbol: GBPCAD, Type: SELL_LIMIT. Code: 10015, Comment: Invalid price
+2025-07-07 01:08:21,635 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839701.
+2025-07-07 01:08:21,635 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:21,635 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:21,635 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for GBPCAD. ---
+2025-07-07 01:08:21,635 - INFO - [main:74] - Signal parsed for GBPCAD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:21,651 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839701...
+2025-07-07 01:08:21,651 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPCAD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0538, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:22,104 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676646, Type: SELL_LIMIT, Symbol: GBPCAD
+2025-07-07 01:08:22,104 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:22,104 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPCAD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.1075, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:22,104 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:22,354 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676649, Type: SELL_LIMIT, Symbol: GBPCAD
+2025-07-07 01:08:22,354 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for GBPAUD. ---
+2025-07-07 01:08:22,354 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839701.
+2025-07-07 01:08:22,370 - INFO - [main:74] - Signal parsed for GBPAUD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:22,370 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839702...
+2025-07-07 01:08:22,370 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPAUD): Risk=47.41, SL Dist=0.011549999999999727, Raw Vol=0.0627, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:22,370 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:22,635 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676651, Type: SELL, Symbol: GBPAUD
+2025-07-07 01:08:22,635 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:22,635 - INFO - [mt5_handler:138] - Volume for 98509933 (GBPAUD): Risk=47.41, SL Dist=0.005999999999999783, Raw Vol=0.1206, Final Vol=0.16 (0.04 per TP over 4 TPs)
+2025-07-07 01:08:22,635 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for EURUSD. ---
+2025-07-07 01:08:23,058 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676657, Type: SELL_LIMIT, Symbol: GBPAUD
+2025-07-07 01:08:23,058 - INFO - [main:74] - Signal parsed for EURUSD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:23,058 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839702.
+2025-07-07 01:08:23,058 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839702...
+2025-07-07 01:08:23,058 - INFO - [mt5_handler:138] - Volume for 98509933 (EURUSD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0395, Final Vol=0.04 (0.01 per TP over 4 TPs)
+2025-07-07 01:08:23,589 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676660, Type: BUY_LIMIT, Symbol: EURUSD
+2025-07-07 01:08:23,589 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:23,589 - INFO - [mt5_handler:138] - Volume for 98509933 (EURUSD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.0790, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:23,589 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:23,730 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676665, Type: BUY_LIMIT, Symbol: EURUSD
+2025-07-07 01:08:23,730 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for EURNZD. ---
+2025-07-07 01:08:23,730 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839702.
+2025-07-07 01:08:23,730 - INFO - [main:74] - Signal parsed for EURNZD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:23,745 - INFO - [partial_closing_manager:112] - Order 533676646 (Group sig_1751839701) registered for management.
+2025-07-07 01:08:23,745 - INFO - [partial_closing_manager:112] - Order 533676649 (Group sig_1751839701) registered for management.
+2025-07-07 01:08:23,745 - INFO - [partial_closing_manager:112] - Order 533676651 (Group sig_1751839702) registered for management.
+2025-07-07 01:08:23,745 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839703...
+2025-07-07 01:08:23,745 - INFO - [partial_closing_manager:112] - Order 533676657 (Group sig_1751839702) registered for management.
+2025-07-07 01:08:23,745 - INFO - [mt5_handler:138] - Volume for 98509933 (EURNZD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0653, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:23,745 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:23,870 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676667, Type: SELL_LIMIT, Symbol: EURNZD
+2025-07-07 01:08:23,745 - INFO - [partial_closing_manager:112] - Order 533676660 (Group sig_1751839702) registered for management.
+2025-07-07 01:08:23,870 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:23,870 - INFO - [mt5_handler:138] - Volume for 98509933 (EURNZD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.1306, Final Vol=0.16 (0.04 per TP over 4 TPs)
+2025-07-07 01:08:23,870 - INFO - [partial_closing_manager:112] - Order 533676665 (Group sig_1751839702) registered for management.
+2025-07-07 01:08:23,870 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for EURGBP. ---
+2025-07-07 01:08:24,136 - INFO - [main:74] - Signal parsed for EURGBP. Distributing to all active MT5 handlers.
+2025-07-07 01:08:24,136 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676669, Type: SELL_LIMIT, Symbol: EURNZD
+2025-07-07 01:08:24,136 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839703.
+2025-07-07 01:08:24,136 - INFO - [partial_closing_manager:112] - Order 533676667 (Group sig_1751839703) registered for management.
+2025-07-07 01:08:24,136 - INFO - [partial_closing_manager:112] - Order 533676669 (Group sig_1751839703) registered for management.
+2025-07-07 01:08:24,151 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839703...
+2025-07-07 01:08:24,151 - INFO - [partial_closing_manager:134] - Order/Position 533676667 (Group: sig_1751839703) no longer active. Removing from management.
+2025-07-07 01:08:24,151 - INFO - [mt5_handler:138] - Volume for 98509933 (EURGBP): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0290, Final Vol=0.04 (0.01 per TP over 4 TPs)
+2025-07-07 01:08:24,151 - INFO - [partial_closing_manager:134] - Order/Position 533676669 (Group: sig_1751839703) no longer active. Removing from management.
+2025-07-07 01:08:24,495 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676672, Type: SELL_LIMIT, Symbol: EURGBP
+2025-07-07 01:08:24,495 - INFO - [mt5_handler:138] - Volume for 98509933 (EURGBP): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.0579, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:24,745 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676675, Type: SELL_LIMIT, Symbol: EURGBP
+2025-07-07 01:08:24,745 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:24,761 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839703.
+2025-07-07 01:08:24,761 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:24,761 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for EURJPY. ---
+2025-07-07 01:08:24,761 - INFO - [main:74] - Signal parsed for EURJPY. Distributing to all active MT5 handlers.
+2025-07-07 01:08:24,761 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839704...
+2025-07-07 01:08:24,761 - INFO - [mt5_handler:138] - Volume for 98509933 (EURJPY): Risk=47.41, SL Dist=1.1999999999999886, Raw Vol=0.0571, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:24,995 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676680, Type: BUY_LIMIT, Symbol: EURJPY
+2025-07-07 01:08:24,995 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:24,995 - INFO - [mt5_handler:138] - Volume for 98509933 (EURJPY): Risk=47.41, SL Dist=0.5999999999999943, Raw Vol=0.1143, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:24,995 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:25,246 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676682, Type: BUY_LIMIT, Symbol: EURJPY
+2025-07-07 01:08:25,246 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for EURCHF. ---
+2025-07-07 01:08:25,246 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839704.
+2025-07-07 01:08:25,246 - INFO - [main:74] - Signal parsed for EURCHF. Distributing to all active MT5 handlers.
+2025-07-07 01:08:25,246 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839705...
+2025-07-07 01:08:25,261 - INFO - [mt5_handler:138] - Volume for 98509933 (EURCHF): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0314, Final Vol=0.04 (0.01 per TP over 4 TPs)
+2025-07-07 01:08:25,261 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:25,527 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676683, Type: SELL_LIMIT, Symbol: EURCHF
+2025-07-07 01:08:25,527 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:25,527 - INFO - [mt5_handler:138] - Volume for 98509933 (EURCHF): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.0628, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:25,527 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for EURCAD. ---
+2025-07-07 01:08:25,652 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676684, Type: SELL_LIMIT, Symbol: EURCHF
+2025-07-07 01:08:25,652 - INFO - [main:74] - Signal parsed for EURCAD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:25,652 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839705.
+2025-07-07 01:08:25,652 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839705...
+2025-07-07 01:08:25,668 - INFO - [mt5_handler:138] - Volume for 98509933 (EURCAD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0538, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:25,668 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:25,903 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676686, Type: SELL_LIMIT, Symbol: EURCAD
+2025-07-07 01:08:25,903 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:25,903 - INFO - [mt5_handler:138] - Volume for 98509933 (EURCAD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.1075, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:25,903 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for EURAUD. ---
+2025-07-07 01:08:26,184 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676690, Type: SELL_LIMIT, Symbol: EURCAD
+2025-07-07 01:08:26,184 - INFO - [main:74] - Signal parsed for EURAUD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:26,184 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839705.
+2025-07-07 01:08:26,184 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839705...
+2025-07-07 01:08:26,184 - INFO - [mt5_handler:138] - Volume for 98509933 (EURAUD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0603, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:26,434 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676691, Type: BUY_LIMIT, Symbol: EURAUD
+2025-07-07 01:08:26,434 - INFO - [mt5_handler:138] - Volume for 98509933 (EURAUD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.1206, Final Vol=0.16 (0.04 per TP over 4 TPs)
+2025-07-07 01:08:26,575 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676695, Type: BUY_LIMIT, Symbol: EURAUD
+2025-07-07 01:08:26,575 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:26,575 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839705.
+2025-07-07 01:08:26,575 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:26,575 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for AUDCHF. ---
+2025-07-07 01:08:26,575 - INFO - [main:74] - Signal parsed for AUDCHF. Distributing to all active MT5 handlers.
+2025-07-07 01:08:26,575 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839706...
+2025-07-07 01:08:26,590 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:26,590 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:26,590 - INFO - [mt5_handler:138] - Volume for 98509933 (AUDCHF): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0314, Final Vol=0.04 (0.01 per TP over 4 TPs)
+2025-07-07 01:08:26,590 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for AUDCHF. ---
+2025-07-07 01:08:26,825 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676697, Type: SELL_LIMIT, Symbol: AUDCHF
+2025-07-07 01:08:26,825 - INFO - [main:74] - Signal parsed for AUDCHF. Distributing to all active MT5 handlers.
+2025-07-07 01:08:26,825 - INFO - [mt5_handler:138] - Volume for 98509933 (AUDCHF): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.0628, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:27,076 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676699, Type: SELL_LIMIT, Symbol: AUDCHF
+2025-07-07 01:08:27,091 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839706.
+2025-07-07 01:08:27,091 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:27,091 - INFO - [partial_closing_manager:112] - Order 533676672 (Group sig_1751839703) registered for management.
+2025-07-07 01:08:27,091 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839706...
+2025-07-07 01:08:27,091 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:27,091 - INFO - [partial_closing_manager:112] - Order 533676675 (Group sig_1751839703) registered for management.
+2025-07-07 01:08:27,091 - INFO - [mt5_handler:138] - Volume for 98509933 (AUDCHF): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0314, Final Vol=0.04 (0.01 per TP over 4 TPs)
+2025-07-07 01:08:27,091 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for AUDCAD. ---
+2025-07-07 01:08:27,216 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676702, Type: BUY_LIMIT, Symbol: AUDCHF
+2025-07-07 01:08:27,091 - INFO - [partial_closing_manager:112] - Order 533676680 (Group sig_1751839704) registered for management.
+2025-07-07 01:08:27,216 - INFO - [main:74] - Signal parsed for AUDCAD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:27,216 - INFO - [mt5_handler:138] - Volume for 98509933 (AUDCHF): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.0628, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:27,216 - INFO - [partial_closing_manager:112] - Order 533676682 (Group sig_1751839704) registered for management.
+2025-07-07 01:08:27,216 - INFO - [partial_closing_manager:112] - Order 533676683 (Group sig_1751839705) registered for management.
+2025-07-07 01:08:27,498 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676704, Type: BUY_LIMIT, Symbol: AUDCHF
+2025-07-07 01:08:27,498 - INFO - [partial_closing_manager:112] - Order 533676684 (Group sig_1751839705) registered for management.
+2025-07-07 01:08:27,498 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839706.
+2025-07-07 01:08:27,498 - INFO - [partial_closing_manager:112] - Order 533676686 (Group sig_1751839705) registered for management.
+2025-07-07 01:08:27,498 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839707...
+2025-07-07 01:08:27,498 - INFO - [partial_closing_manager:112] - Order 533676690 (Group sig_1751839705) registered for management.
+2025-07-07 01:08:27,498 - INFO - [partial_closing_manager:112] - Order 533676691 (Group sig_1751839705) registered for management.
+2025-07-07 01:08:27,498 - INFO - [mt5_handler:138] - Volume for 98509933 (AUDCAD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0538, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:27,498 - INFO - [partial_closing_manager:112] - Order 533676695 (Group sig_1751839705) registered for management.
+2025-07-07 01:08:27,498 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:08:27,732 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676707, Type: SELL_LIMIT, Symbol: AUDCAD
+2025-07-07 01:08:27,732 - INFO - [partial_closing_manager:112] - Order 533676697 (Group sig_1751839706) registered for management.
+2025-07-07 01:08:27,748 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:08:27,748 - INFO - [mt5_handler:138] - Volume for 98509933 (AUDCAD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.1075, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:27,748 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for AUDCAD. ---
+2025-07-07 01:08:27,748 - INFO - [partial_closing_manager:112] - Order 533676699 (Group sig_1751839706) registered for management.
+2025-07-07 01:08:28,029 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676709, Type: SELL_LIMIT, Symbol: AUDCAD
+2025-07-07 01:08:28,029 - INFO - [main:74] - Signal parsed for AUDCAD. Distributing to all active MT5 handlers.
+2025-07-07 01:08:28,029 - INFO - [partial_closing_manager:112] - Order 533676702 (Group sig_1751839706) registered for management.
+2025-07-07 01:08:28,029 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839707.
+2025-07-07 01:08:28,029 - INFO - [partial_closing_manager:112] - Order 533676704 (Group sig_1751839706) registered for management.
+2025-07-07 01:08:28,029 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751839707...
+2025-07-07 01:08:28,029 - INFO - [partial_closing_manager:112] - Order 533676707 (Group sig_1751839707) registered for management.
+2025-07-07 01:08:28,029 - INFO - [mt5_handler:138] - Volume for 98509933 (AUDCAD): Risk=47.41, SL Dist=0.01200000000000001, Raw Vol=0.0538, Final Vol=0.08 (0.02 per TP over 4 TPs)
+2025-07-07 01:08:28,029 - INFO - [partial_closing_manager:112] - Order 533676709 (Group sig_1751839707) registered for management.
+2025-07-07 01:08:28,546 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676711, Type: BUY_LIMIT, Symbol: AUDCAD
+2025-07-07 01:08:28,546 - INFO - [partial_closing_manager:134] - Order/Position 533676702 (Group: sig_1751839706) no longer active. Removing from management.
+2025-07-07 01:08:28,546 - INFO - [mt5_handler:138] - Volume for 98509933 (AUDCAD): Risk=47.41, SL Dist=0.006000000000000005, Raw Vol=0.1075, Final Vol=0.12 (0.03 per TP over 4 TPs)
+2025-07-07 01:08:28,546 - INFO - [partial_closing_manager:134] - Order/Position 533676704 (Group: sig_1751839706) no longer active. Removing from management.
+2025-07-07 01:08:28,811 - INFO - [mt5_handler:185] - Order sent successfully. Account: 98509933, Ticket: 533676717, Type: BUY_LIMIT, Symbol: AUDCAD
+2025-07-07 01:08:28,811 - INFO - [partial_closing_manager:134] - Order/Position 533676707 (Group: sig_1751839707) no longer active. Removing from management.
+2025-07-07 01:08:28,811 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751839707.
+2025-07-07 01:08:28,811 - INFO - [partial_closing_manager:134] - Order/Position 533676709 (Group: sig_1751839707) no longer active. Removing from management.
+2025-07-07 01:08:30,846 - INFO - [partial_closing_manager:112] - Order 533676711 (Group sig_1751839707) registered for management.
+2025-07-07 01:08:30,846 - INFO - [partial_closing_manager:112] - Order 533676717 (Group sig_1751839707) registered for management.
+2025-07-07 01:16:43,515 - INFO - [main:70] - --- New Message Received from Channel -1002889947464 ---
+2025-07-07 01:16:43,515 - INFO - [signal_parser:15] - --- PARSER: Starting to parse new message. ---
+2025-07-07 01:16:43,516 - INFO - [signal_parser:82] - --- PARSER SUCCESS: Successfully parsed signal for XAUUSD. ---
+2025-07-07 01:16:43,516 - INFO - [main:74] - Signal parsed for XAUUSD. Distributing to all active MT5 handlers.
+2025-07-07 01:16:43,517 - INFO - [mt5_handler:143] - Account 98509933: Processing 2 entries for signal group sig_1751840203...
+2025-07-07 01:16:43,517 - ERROR - [mt5_handler:101] - Failed to get symbol_info for XAUUSD in lot calculation.
+2025-07-07 01:16:43,517 - ERROR - [mt5_handler:169] - Invalid volume calculated (None) for XAUUSD. Order cancelled.
+2025-07-07 01:16:43,518 - ERROR - [mt5_handler:101] - Failed to get symbol_info for XAUUSD in lot calculation.
+2025-07-07 01:16:43,518 - ERROR - [mt5_handler:169] - Invalid volume calculated (None) for XAUUSD. Order cancelled.
+2025-07-07 01:16:43,519 - INFO - [mt5_handler:146] - Account 98509933: Finished processing entries for sig_1751840203.

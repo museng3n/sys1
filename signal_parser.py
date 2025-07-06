@@ -1,0 +1,87 @@
+# signal_parser.py
+import re
+import logging
+import time
+from config_symbols import SYMBOL_MAP
+
+def parse_signal(message_text: str) -> dict | None:
+    """
+    Parses a trading signal from a raw text message.
+    It is designed to be flexible and handle various common formats.
+    """
+    if not message_text:
+        return None
+        
+    logging.info(f"--- PARSER: Starting to parse new message. ---")
+    
+    # Clean up the message: uppercase, strip whitespace from each line
+    text = '\n'.join([line.strip() for line in message_text.split('\n') if line.strip()]).upper()
+    logging.debug(f"--- PARSER: Cleaned Text ---\n{text}\n--------------------------")
+    
+    try:
+        # --- 1. Find Symbol and Direction ---
+        # Pattern covers: "SYMBOL BUY/SELL" or "BUY/SELL SYMBOL"
+        match = re.search(r'([A-Z0-9]+)\s+(BUY|SELL)|(BUY|SELL)\s+([A-Z0-9]+)', text)
+        if not match:
+            logging.warning("--- PARSER FAILED: Could not find a valid symbol/direction pair. ---")
+            return None
+        
+        groups = match.groups()
+        raw_symbol = groups[0] or groups[3]
+        direction = groups[1] or groups[2]
+        final_symbol = SYMBOL_MAP.get(raw_symbol, raw_symbol)
+        logging.debug(f"--- PARSER STEP 1 OK: Found Symbol='{final_symbol}' (from '{raw_symbol}'), Direction='{direction}'")
+
+        # --- 2. Find Entry Points ---
+        entries = []
+        if "NOW" in text or "MARKET" in text:
+            entries.append({"type": "MARKET", "price": None})
+        
+        limit_stop_matches = re.findall(r'(?:BUY|SELL)?\s*(LIMIT|STOP)\s*(?:FROM|@)?\s*([\d\.]+)', text)
+        for order_type, price in limit_stop_matches:
+            entries.append({"type": order_type, "price": float(price)})
+        
+        if not entries and '@' in text:
+             price_match = re.search(r'@\s*([\d\.]+)', text)
+             if price_match:
+                 entries.append({"type": "LIMIT", "price": float(price_match.group(1))})
+        
+        if not entries:
+            logging.warning("--- PARSER FAILED: Could not determine any entry points (Market, Limit, or Stop). ---")
+            return None
+        logging.debug(f"--- PARSER STEP 2 OK: Found Entries: {entries}")
+
+        # --- 3. Find Take Profit (TP) Levels ---
+        tp_matches = re.findall(r'TP\s*\d*\s*[:@]?\s*([\d\.]+)', text)
+        if not tp_matches:
+            logging.warning("--- PARSER FAILED: No TP levels found. ---")
+            return None
+        
+        tps = sorted([float(tp) for tp in tp_matches], reverse=(direction == "SELL"))
+        logging.debug(f"--- PARSER STEP 3 OK: Found TPs: {tps}")
+
+        # --- 4. Find Stop Loss (SL) Level ---
+        sl_match = re.search(r'SL\s*[:@]?\s*([\d\.]+)', text)
+        if not sl_match:
+            logging.warning("--- PARSER FAILED: No SL level found. ---")
+            return None
+        sl_price = float(sl_match.group(1))
+        logging.debug(f"--- PARSER STEP 4 OK: Found SL: {sl_price}")
+        
+        parsed_data = {
+            "group_id": f"sig_{int(time.time())}",
+            "symbol": final_symbol,
+            "direction": direction,
+            "entries": entries,
+            "tps": tps,
+            "sl": sl_price,
+            "final_tp": tps[-1],
+            "num_tps": len(tps)
+        }
+        
+        logging.info(f"--- PARSER SUCCESS: Successfully parsed signal for {final_symbol}. ---")
+        return parsed_data
+        
+    except Exception as e:
+        logging.error(f"--- PARSER CRASHED: An unexpected error occurred during parsing: {e} ---", exc_info=True)
+        return None
