@@ -1,0 +1,5 @@
+Level 1 (Bad): Storing credentials in a plain-text file (config.json). (This is what you had).
+Level 2 (Good): Using environment variables. Protects against 95% of common, automated malware. (This is the recommended change).
+Level 3 (Better): Running your bot on a dedicated, isolated server (a VPS - Virtual Private Server). This separates the bot from your personal computer. If your personal PC gets infected from browsing or downloads, your trading bot remains safe in its own clean environment.
+Level 4 (Best): Using a dedicated secrets management service (like HashiCorp Vault or cloud services like AWS Secrets Manager), which is what large companies do. This is overkill for a personal project.
+Your Action Plan:

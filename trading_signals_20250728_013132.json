@@ -1,0 +1,764 @@
+[
+    {
+        "symbol": "CADJPY",
+        "direction": "SELL",
+        "raw_message": "CADJPY SELL limit from 109.1\u00a0and SELL limit from 109.7\nTp1 @ 108.6 1\nTp2 @ 108.0 2\nTp3 @ 107.4 3\nTp4 @ 106.8 0\nSl\u00a0\u00a0\u00a0 @\u00a0110.3 ",
+        "entry_type": "limit",
+        "entry_points": [
+            109.1,
+            109.7
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 108.6,
+            "tp2": 108.0,
+            "tp3": 107.4,
+            "tp4": 106.8
+        },
+        "stop_loss": 110.3,
+        "timestamp": "2025-07-27T20:32:27+00:00",
+        "message_id": 10377,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9815373897222222
+    },
+    {
+        "symbol": "CADJPY",
+        "direction": "BUY",
+        "raw_message": "CADJPY BUY limit from 106.2\u00a0and BUY limit from 105.6\nTp1 @ 106.7 1\nTp2 @ 107.3 2\nTp3 @ 107.9 3\nTp4 @ 108.5 4\nSl\u00a0\u00a0\u00a0 @ 105.3 ",
+        "entry_type": "limit",
+        "entry_points": [
+            106.2,
+            105.6
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 106.7,
+            "tp2": 107.3,
+            "tp3": 107.9,
+            "tp4": 108.5
+        },
+        "stop_loss": 105.3,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10376,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "AUDUSD",
+        "direction": "BUY",
+        "raw_message": "AUDUSD BUY Now\u00a0and BUY limit from 0.650\nTp1 @ 0.661 1\nTp2 @ 0.667 2\nTp3 @ 0.673 3\nTp4 @ 0.679 4\nSl\u00a0\u00a0\u00a0 @ 0.644 ",
+        "entry_type": "market",
+        "entry_points": [
+            "market"
+        ],
+        "take_profits": {
+            "tp1": 0.661,
+            "tp2": 0.667,
+            "tp3": 0.673,
+            "tp4": 0.679
+        },
+        "stop_loss": 0.644,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10375,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "AUDJPY",
+        "direction": "BUY",
+        "raw_message": "AUDJPY BUY limit from 96.6\u00a0and BUY limit from 96.0\nTp1 @ 97.1 1\nTp2 @ 97.7 2\nTp3 @ 98.3 3\nTp4 @ 98.9 4\nSl\u00a0\u00a0\u00a0 @ 95.4 ",
+        "entry_type": "limit",
+        "entry_points": [
+            96.6,
+            96.0
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 97.1,
+            "tp2": 97.7,
+            "tp3": 98.3,
+            "tp4": 98.9
+        },
+        "stop_loss": 95.4,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10374,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "AUDCHF",
+        "direction": "SELL",
+        "raw_message": "AUDCHF SELL limit from 0.530\u00a0and SELL limit from 0.536\nTp1 @ 0.525 1\nTp2 @ 0.519 2\nTp3 @ 0.513 3\nTp4 @ 0.507 0\nSl\u00a0\u00a0\u00a0 @\u00a00.542 ",
+        "entry_type": "limit",
+        "entry_points": [
+            0.53,
+            0.536
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 0.525,
+            "tp2": 0.519,
+            "tp3": 0.513,
+            "tp4": 0.507
+        },
+        "stop_loss": 0.542,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10373,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "AUDCHF",
+        "direction": "BUY",
+        "raw_message": "AUDCHF BUY limit from 0.511\u00a0and BUY limit from 0.505\nTp1 @ 0.516 1\nTp2 @ 0.522 2\nTp3 @ 0.528 3\nTp4 @ 0.534 4\nSl\u00a0\u00a0\u00a0 @ 0.499 ",
+        "entry_type": "limit",
+        "entry_points": [
+            0.511,
+            0.505
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 0.516,
+            "tp2": 0.522,
+            "tp3": 0.528,
+            "tp4": 0.534
+        },
+        "stop_loss": 0.499,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10372,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "AUDCAD",
+        "direction": "BUY",
+        "raw_message": "AUDCAD BUY limit from 0.878\u00a0and BUY limit from 0.872\nTp1 @ 0.883 1\nTp2 @ 0.889 2\nTp3 @ 0.895 3\nTp4 @ 0.901 4\nSl\u00a0\u00a0\u00a0 @ 0.866 ",
+        "entry_type": "limit",
+        "entry_points": [
+            0.878,
+            0.872
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 0.883,
+            "tp2": 0.889,
+            "tp3": 0.895,
+            "tp4": 0.901
+        },
+        "stop_loss": 0.866,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10371,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "AUDCAD",
+        "direction": "SELL",
+        "raw_message": "AUDCAD SELL limit from 0.903\u00a0and SELL limit from 0.909\nTp1 @ 0.898 1\nTp2 @ 0.892 2\nTp3 @ 0.886 3\nTp4 @ 0.880 0\nSl\u00a0\u00a0\u00a0 @\u00a00.915 ",
+        "entry_type": "limit",
+        "entry_points": [
+            0.903,
+            0.909
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 0.898,
+            "tp2": 0.892,
+            "tp3": 0.886,
+            "tp4": 0.88
+        },
+        "stop_loss": 0.915,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10370,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "OIL",
+        "direction": "BUY",
+        "raw_message": "OIL BUY limit from 65.5\u00a0and BUY limit from 64.9\nTp1 @ 66.0 1\nTp2 @ 66.6 2\nTp3 @ 67.2 3\nTp4 @ 67.8 4\nSl\u00a0\u00a0\u00a0 @ 64.3 ",
+        "entry_type": "limit",
+        "entry_points": [
+            65.5,
+            64.9
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 66.0,
+            "tp2": 66.6,
+            "tp3": 67.2,
+            "tp4": 67.8
+        },
+        "stop_loss": 64.3,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10369,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "NIKKEI",
+        "direction": "BUY",
+        "raw_message": "NIKKEI BUY limit from 40450\u00a0and BUY limit from 40250\nTp1 @ 40700 1\nTp2 @ 41000 2\nTp3 @ 41300 3\nTp4 @ 41600 4\nSl\u00a0\u00a0\u00a0 @ 40000 ",
+        "entry_type": "limit",
+        "entry_points": [
+            40450.0,
+            40250.0
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 40700.0,
+            "tp2": 41000.0,
+            "tp3": 41300.0,
+            "tp4": 41600.0
+        },
+        "stop_loss": 40000.0,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10368,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "NIKKEI",
+        "direction": "SELL",
+        "raw_message": "NIKKEI SELL limit from 41600\u00a0and SELL limit from 41800\nTp1 @ 41400 1\nTp2 @ 41100 2\nTp3 @ 40800 3\nTp4 @ 40500 0\nSl\u00a0\u00a0\u00a0 @\u00a042000 ",
+        "entry_type": "limit",
+        "entry_points": [
+            41600.0,
+            41800.0
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 41400.0,
+            "tp2": 41100.0,
+            "tp3": 40800.0,
+            "tp4": 40500.0
+        },
+        "stop_loss": 42000.0,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10367,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "DAX 40",
+        "direction": "BUY",
+        "raw_message": "DAX 40 BUY limit from 23600\u00a0and BUY limit from 23400\nTp1 @ 23800 1\nTp2 @ 24100 2\nTp3 @ 24400 3\nTp4 @ 24700 4\nSl\u00a0\u00a0\u00a0 @ 23200 ",
+        "entry_type": "limit",
+        "entry_points": [
+            23600.0,
+            23400.0
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 23800.0,
+            "tp2": 24100.0,
+            "tp3": 24400.0,
+            "tp4": 24700.0
+        },
+        "stop_loss": 23200.0,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10366,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "US100",
+        "direction": "BUY",
+        "raw_message": "US100 BUY limit from 22650\u00a0and BUY limit from 22450\nTp1 @ 22900 1\nTp2 @ 23200 2\nTp3 @ 23500 3\nTp4 @ 23800 4\nSl\u00a0\u00a0\u00a0 @ 22200 ",
+        "entry_type": "limit",
+        "entry_points": [
+            22650.0,
+            22450.0
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 22900.0,
+            "tp2": 23200.0,
+            "tp3": 23500.0,
+            "tp4": 23800.0
+        },
+        "stop_loss": 22200.0,
+        "timestamp": "2025-07-27T20:32:26+00:00",
+        "message_id": 10365,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9818151675
+    },
+    {
+        "symbol": "US100",
+        "direction": "SELL",
+        "raw_message": "US100 SELL limit from 23550\u00a0and SELL limit from 23750\nTp1 @ 23300 1\nTp2 @ 23000 2\nTp3 @ 22700 3\nTp4 @ 22400 0\nSl\u00a0\u00a0\u00a0 @\u00a024000 ",
+        "entry_type": "limit",
+        "entry_points": [
+            23550.0,
+            23750.0
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 23300.0,
+            "tp2": 23000.0,
+            "tp3": 22700.0,
+            "tp4": 22400.0
+        },
+        "stop_loss": 24000.0,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10364,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "GOLD",
+        "direction": "BUY",
+        "raw_message": "GOLD BUY limit from 3320\u00a0and BUY limit from 3310\nTp1 @ 3330 1\nTp2 @ 3340 2\nTp3 @ 3350 3\nTp4 @ 3360 4\nSl\u00a0\u00a0\u00a0 @ 3300 ",
+        "entry_type": "limit",
+        "entry_points": [
+            3320.0,
+            3310.0
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 3330.0,
+            "tp2": 3340.0,
+            "tp3": 3350.0,
+            "tp4": 3360.0
+        },
+        "stop_loss": 3300.0,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10363,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "US30",
+        "direction": "SELL",
+        "raw_message": "US30 SELL limit from 45600\u00a0and SELL limit from 45800\nTp1 @ 45400 1\nTp2 @ 45100 2\nTp3 @ 44800 3\nTp4 @ 44500 0\nSl\u00a0\u00a0\u00a0 @\u00a046000 ",
+        "entry_type": "limit",
+        "entry_points": [
+            45600.0,
+            45800.0
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 45400.0,
+            "tp2": 45100.0,
+            "tp3": 44800.0,
+            "tp4": 44500.0
+        },
+        "stop_loss": 46000.0,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10362,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "US30",
+        "direction": "BUY",
+        "raw_message": "US30 BUY limit from 44350\u00a0and BUY limit from 44150\nTp1 @ 44600 1\nTp2 @ 44900 2\nTp3 @ 45200 3\nTp4 @ 45500 4\nSl\u00a0\u00a0\u00a0 @ 43900 ",
+        "entry_type": "limit",
+        "entry_points": [
+            44350.0,
+            44150.0
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 44600.0,
+            "tp2": 44900.0,
+            "tp3": 45200.0,
+            "tp4": 45500.0
+        },
+        "stop_loss": 43900.0,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10361,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "USDCHF",
+        "direction": "SELL",
+        "raw_message": "USDCHF SELL limit from 0.814\u00a0and SELL limit from 0.820\nTp1 @ 0.809 1\nTp2 @ 0.803 2\nTp3 @ 0.797 3\nTp4 @ 0.791 0\nSl\u00a0\u00a0\u00a0 @\u00a00.826 ",
+        "entry_type": "limit",
+        "entry_points": [
+            0.814,
+            0.82
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 0.809,
+            "tp2": 0.803,
+            "tp3": 0.797,
+            "tp4": 0.791
+        },
+        "stop_loss": 0.826,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10360,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "USDJPY",
+        "direction": "SELL",
+        "raw_message": "USDJPY SELL limit from 148.5\u00a0and SELL limit from 149.1\nTp1 @ 148.0 1\nTp2 @ 147.4 2\nTp3 @ 146.8 3\nTp4 @ 146.2 0\nSl\u00a0\u00a0\u00a0 @\u00a0149.7 ",
+        "entry_type": "limit",
+        "entry_points": [
+            148.5,
+            149.1
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 148.0,
+            "tp2": 147.4,
+            "tp3": 146.8,
+            "tp4": 146.2
+        },
+        "stop_loss": 149.7,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10359,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "USDCAD",
+        "direction": "SELL",
+        "raw_message": "USDCAD SELL Now\u00a0and SELL limit from 1.376\nTp1 @ 1.365 1\nTp2 @ 1.359 2\nTp3 @ 1.353 3\nTp4 @ 1.347 0\nSl\u00a0\u00a0\u00a0 @\u00a01.382 ",
+        "entry_type": "market",
+        "entry_points": [
+            "market"
+        ],
+        "take_profits": {
+            "tp1": 1.365,
+            "tp2": 1.359,
+            "tp3": 1.353,
+            "tp4": 1.347
+        },
+        "stop_loss": 1.382,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10358,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "NZDJPY",
+        "direction": "BUY",
+        "raw_message": "NZDJPY BUY limit from 87.6\u00a0and BUY limit from 87.0\nTp1 @ 88.1 1\nTp2 @ 88.7 2\nTp3 @ 89.3 3\nTp4 @ 89.9 4\nSl\u00a0\u00a0\u00a0 @ 86.4 ",
+        "entry_type": "limit",
+        "entry_points": [
+            87.6,
+            87.0
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 88.1,
+            "tp2": 88.7,
+            "tp3": 89.3,
+            "tp4": 89.9
+        },
+        "stop_loss": 86.4,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10357,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "NZDCHF",
+        "direction": "SELL",
+        "raw_message": "NZDCHF SELL limit from 0.486\u00a0and SELL limit from 0.492\nTp1 @ 0.481 1\nTp2 @ 0.475 2\nTp3 @ 0.469 3\nTp4 @ 0.463 0\nSl\u00a0\u00a0\u00a0 @\u00a00.498 ",
+        "entry_type": "limit",
+        "entry_points": [
+            0.486,
+            0.492
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 0.481,
+            "tp2": 0.475,
+            "tp3": 0.469,
+            "tp4": 0.463
+        },
+        "stop_loss": 0.498,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10356,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "GBPUSD",
+        "direction": "BUY",
+        "raw_message": "GBPUSD BUY limit from 1.339\u00a0and BUY limit from 1.333\nTp1 @ 1.344 1\nTp2 @ 1.350 2\nTp3 @ 1.356 3\nTp4 @ 1.362 4\nSl\u00a0\u00a0\u00a0 @ 1.327 ",
+        "entry_type": "limit",
+        "entry_points": [
+            1.339,
+            1.333
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 1.344,
+            "tp2": 1.35,
+            "tp3": 1.356,
+            "tp4": 1.362
+        },
+        "stop_loss": 1.327,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10355,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "GBPNZD",
+        "direction": "BUY",
+        "raw_message": "GBPNZD BUY limit from 2.217\u00a0and BUY limit from 2.211\nTp1 @ 2.222 1\nTp2 @ 2.228 2\nTp3 @ 2.234 3\nTp4 @ 2.240 4\nSl\u00a0\u00a0\u00a0 @ 2.205 ",
+        "entry_type": "limit",
+        "entry_points": [
+            2.217,
+            2.211
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 2.222,
+            "tp2": 2.228,
+            "tp3": 2.234,
+            "tp4": 2.24
+        },
+        "stop_loss": 2.205,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10354,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "GBPCHF",
+        "direction": "BUY",
+        "raw_message": "GBPCHF BUY limit from 1.062\u00a0and BUY limit from 1.056\nTp1 @ 1.067 1\nTp2 @ 1.073 2\nTp3 @ 1.079 3\nTp4 @ 1.085 4\nSl\u00a0\u00a0\u00a0 @ 1.050 ",
+        "entry_type": "limit",
+        "entry_points": [
+            1.062,
+            1.056
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 1.067,
+            "tp2": 1.073,
+            "tp3": 1.079,
+            "tp4": 1.085
+        },
+        "stop_loss": 1.05,
+        "timestamp": "2025-07-27T20:32:25+00:00",
+        "message_id": 10353,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9820929452777778
+    },
+    {
+        "symbol": "GBPCAD",
+        "direction": "SELL",
+        "raw_message": "GBPCAD SELL limit from 1.851\u00a0and SELL limit from 1.857\nTp1 @ 1.846 1\nTp2 @ 1.840 2\nTp3 @ 1.834 3\nTp4 @ 1.828 0\nSl\u00a0\u00a0\u00a0 @\u00a01.863 ",
+        "entry_type": "limit",
+        "entry_points": [
+            1.851,
+            1.857
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 1.846,
+            "tp2": 1.84,
+            "tp3": 1.834,
+            "tp4": 1.828
+        },
+        "stop_loss": 1.863,
+        "timestamp": "2025-07-27T20:32:24+00:00",
+        "message_id": 10352,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9823707230555556
+    },
+    {
+        "symbol": "GBPAUD",
+        "direction": "BUY",
+        "raw_message": "GBPAUD BUY limit from 2.027\u00a0and BUY limit from 2.021\nTp1 @ 2.032 1\nTp2 @ 2.038 2\nTp3 @ 2.044 3\nTp4 @ 2.050 4\nSl\u00a0\u00a0\u00a0 @ 2.015 ",
+        "entry_type": "limit",
+        "entry_points": [
+            2.027,
+            2.021
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 2.032,
+            "tp2": 2.038,
+            "tp3": 2.044,
+            "tp4": 2.05
+        },
+        "stop_loss": 2.015,
+        "timestamp": "2025-07-27T20:32:24+00:00",
+        "message_id": 10351,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9823707230555556
+    },
+    {
+        "symbol": "EURUSD",
+        "direction": "SELL",
+        "raw_message": "EURUSD SELL limit from 1.193\u00a0and SELL limit from 1.199\nTp1 @ 1.188 1\nTp2 @ 1.182 2\nTp3 @ 1.176 3\nTp4 @ 1.170 0\nSl\u00a0\u00a0\u00a0 @\u00a01.205 ",
+        "entry_type": "limit",
+        "entry_points": [
+            1.193,
+            1.199
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 1.188,
+            "tp2": 1.182,
+            "tp3": 1.176,
+            "tp4": 1.17
+        },
+        "stop_loss": 1.205,
+        "timestamp": "2025-07-27T20:32:24+00:00",
+        "message_id": 10350,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9823707230555556
+    },
+    {
+        "symbol": "EURUSD",
+        "direction": "BUY",
+        "raw_message": "EURUSD BUY limit from 1.163\u00a0and BUY limit from 1.157\nTp1 @ 1.168 1\nTp2 @ 1.174 2\nTp3 @ 1.180 3\nTp4 @ 1.186 4\nSl\u00a0\u00a0\u00a0 @ 1.151 ",
+        "entry_type": "limit",
+        "entry_points": [
+            1.163,
+            1.157
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 1.168,
+            "tp2": 1.174,
+            "tp3": 1.18,
+            "tp4": 1.186
+        },
+        "stop_loss": 1.151,
+        "timestamp": "2025-07-27T20:32:24+00:00",
+        "message_id": 10349,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9823707230555556
+    },
+    {
+        "symbol": "EURNZD",
+        "direction": "BUY",
+        "raw_message": "EURNZD BUY limit from 1.944\u00a0and BUY limit from 1.938\nTp1 @ 1.949 1\nTp2 @ 1.955 2\nTp3 @ 1.961 3\nTp4 @ 1.967 4\nSl\u00a0\u00a0\u00a0 @ 1.932 ",
+        "entry_type": "limit",
+        "entry_points": [
+            1.944,
+            1.938
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 1.949,
+            "tp2": 1.955,
+            "tp3": 1.961,
+            "tp4": 1.967
+        },
+        "stop_loss": 1.932,
+        "timestamp": "2025-07-27T20:32:24+00:00",
+        "message_id": 10348,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9823707230555556
+    },
+    {
+        "symbol": "EURJPY",
+        "direction": "BUY",
+        "raw_message": "EURJPY BUY limit from 173.0\u00a0and BUY limit from 172.4\nTp1 @ 173.5 1\nTp2 @ 174.1 2\nTp3 @ 174.7 3\nTp4 @ 175.3 4\nSl\u00a0\u00a0\u00a0 @ 171.8 ",
+        "entry_type": "limit",
+        "entry_points": [
+            173.0,
+            172.4
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 173.5,
+            "tp2": 174.1,
+            "tp3": 174.7,
+            "tp4": 175.3
+        },
+        "stop_loss": 171.8,
+        "timestamp": "2025-07-27T20:32:24+00:00",
+        "message_id": 10347,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9823707230555556
+    },
+    {
+        "symbol": "EURCAD",
+        "direction": "BUY",
+        "raw_message": "EURCAD BUY Now\u00a0and BUY limit from 1.602\nTp1 @ 1.613 1\nTp2 @ 1.619 2\nTp3 @ 1.625 3\nTp4 @ 1.631 4\nSl\u00a0\u00a0\u00a0 @ 1.596 ",
+        "entry_type": "market",
+        "entry_points": [
+            "market"
+        ],
+        "take_profits": {
+            "tp1": 1.613,
+            "tp2": 1.619,
+            "tp3": 1.625,
+            "tp4": 1.631
+        },
+        "stop_loss": 1.596,
+        "timestamp": "2025-07-27T20:32:24+00:00",
+        "message_id": 10346,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9823707230555556
+    },
+    {
+        "symbol": "EURAUD",
+        "direction": "BUY",
+        "raw_message": "EURAUD BUY limit from 1.772\u00a0and BUY limit from 1.766\nTp1 @ 1.777 1\nTp2 @ 1.783 2\nTp3 @ 1.789 3\nTp4 @ 1.795 4\nSl\u00a0\u00a0\u00a0 @ 1.760 ",
+        "entry_type": "limit",
+        "entry_points": [
+            1.772,
+            1.766
+        ],
+        "direction2": "BUY",
+        "take_profits": {
+            "tp1": 1.777,
+            "tp2": 1.783,
+            "tp3": 1.789,
+            "tp4": 1.795
+        },
+        "stop_loss": 1.76,
+        "timestamp": "2025-07-27T20:32:24+00:00",
+        "message_id": 10345,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9823707230555556
+    },
+    {
+        "symbol": "EURAUD",
+        "direction": "SELL",
+        "raw_message": "EURAUD SELL limit from 1.809\u00a0and SELL limit from 1.815\nTp1 @ 1.804 1\nTp2 @ 1.798 2\nTp3 @ 1.792 3\nTp4 @ 1.786 0\nSl\u00a0\u00a0\u00a0 @\u00a01.821 ",
+        "entry_type": "limit",
+        "entry_points": [
+            1.809,
+            1.815
+        ],
+        "direction2": "SELL",
+        "take_profits": {
+            "tp1": 1.804,
+            "tp2": 1.798,
+            "tp3": 1.792,
+            "tp4": 1.786
+        },
+        "stop_loss": 1.821,
+        "timestamp": "2025-07-27T20:32:24+00:00",
+        "message_id": 10344,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9823707230555556
+    },
+    {
+        "symbol": "CHFJPY",
+        "direction": "BUY",
+        "raw_message": "CHFJPY BUY Now\u00a0and BUY limit from 185.1\nTp1 @ 186.2 1\nTp2 @ 186.8 2\nTp3 @ 187.4 3\nTp4 @ 188.0 4\nSl\u00a0\u00a0\u00a0 @ 184.5 ",
+        "entry_type": "market",
+        "entry_points": [
+            "market"
+        ],
+        "take_profits": {
+            "tp1": 186.2,
+            "tp2": 186.8,
+            "tp3": 187.4,
+            "tp4": 188.0
+        },
+        "stop_loss": 184.5,
+        "timestamp": "2025-07-27T20:32:24+00:00",
+        "message_id": 10343,
+        "channel_id": -1001552516320,
+        "message_age_hours": 1.9823707230555556
+    }
+]

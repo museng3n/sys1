@@ -1,1965 +1,808 @@
 {
-    "531183803": {
+    "539132051": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751240535",
-            "symbol": "EURGBP",
+            "group_id": "sig_1753060210",
+            "symbol": "CADCHF",
             "direction": "BUY",
             "entries": [
                 {
-                    "type": "MARKET",
-                    "price": null
+                    "type": "LIMIT",
+                    "price": 0.582
                 },
                 {
                     "type": "LIMIT",
-                    "price": 0.848
+                    "price": 0.576
                 }
             ],
             "tps": [
-                0.859,
-                0.865,
-                0.871,
-                0.877
+                0.587,
+                0.593,
+                0.599,
+                0.605
             ],
-            "sl": 0.842,
-            "final_tp": 0.877,
+            "sl": 0.57,
+            "final_tp": 0.605,
             "num_tps": 4
         },
-        "original_volume": 0.03,
-        "closed_tps": [
-            1,
-            2
-        ],
-        "is_secured": true,
-        "group_id": "sig_1751240535",
-        "pending_close_volume": 0.0
-    },
-    "531183817": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751240541",
-            "symbol": "CHFJPY",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 182.2
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 182.8
-                }
-            ],
-            "tps": [
-                181.7,
-                181.1,
-                180.5,
-                179.9
-            ],
-            "sl": 183.4,
-            "final_tp": 179.9,
-            "num_tps": 4
-        },
-        "original_volume": 0.06,
+        "original_volume": 0.04,
         "closed_tps": [
             1
         ],
-        "is_secured": true,
-        "group_id": "sig_1751240541",
+        "is_secured": false,
+        "group_id": "sig_1753060210",
         "pending_close_volume": 0.0
     },
-    "531183827": {
+    "541625843": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751240544",
+            "group_id": "sig_1753655482",
             "symbol": "CADJPY",
             "direction": "SELL",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 106.9
+                    "price": 109.1
                 },
                 {
                     "type": "LIMIT",
-                    "price": 107.5
+                    "price": 109.7
                 }
             ],
             "tps": [
-                106.4,
-                105.8,
-                105.2,
-                104.6
+                108.6,
+                108.0,
+                107.4,
+                106.8
             ],
-            "sl": 108.1,
-            "final_tp": 104.6,
+            "sl": 110.3,
+            "final_tp": 106.8,
             "num_tps": 4
         },
-        "original_volume": 0.06,
-        "closed_tps": [
-            1
-        ],
-        "is_secured": true,
-        "group_id": "sig_1751240544",
+        "original_volume": 0.08,
+        "closed_tps": [],
+        "is_secured": false,
+        "group_id": "sig_1753655482",
         "pending_close_volume": 0.0
     },
-    "531183829": {
+    "541625844": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751240545",
-            "symbol": "CADCHF",
+            "group_id": "sig_1753655482",
+            "symbol": "CADJPY",
             "direction": "SELL",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 0.586
+                    "price": 109.1
                 },
                 {
                     "type": "LIMIT",
-                    "price": 0.592
+                    "price": 109.7
                 }
             ],
             "tps": [
-                0.581,
-                0.575,
-                0.569,
-                0.563
+                108.6,
+                108.0,
+                107.4,
+                106.8
             ],
-            "sl": 0.598,
-            "final_tp": 0.563,
+            "sl": 110.3,
+            "final_tp": 106.8,
             "num_tps": 4
         },
-        "original_volume": 0.03,
+        "original_volume": 0.12,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751240545",
+        "group_id": "sig_1753655482",
         "pending_close_volume": 0.0
     },
-    "531183840": {
+    "541625845": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751240550",
-            "symbol": "AUDJPY",
+            "group_id": "sig_1753655482",
+            "symbol": "CADJPY",
             "direction": "BUY",
             "entries": [
                 {
-                    "type": "MARKET",
-                    "price": null
+                    "type": "LIMIT",
+                    "price": 106.2
                 },
                 {
                     "type": "LIMIT",
-                    "price": 93.9
+                    "price": 105.6
                 }
             ],
             "tps": [
-                95.0,
-                95.6,
-                96.2,
-                96.8
+                106.7,
+                107.3,
+                107.9,
+                108.5
             ],
-            "sl": 93.3,
-            "final_tp": 96.8,
+            "sl": 105.3,
+            "final_tp": 108.5,
             "num_tps": 4
         },
-        "original_volume": 0.06,
-        "closed_tps": [
-            1
-        ],
-        "is_secured": true,
-        "group_id": "sig_1751240550",
+        "original_volume": 0.08,
+        "closed_tps": [],
+        "is_secured": false,
+        "group_id": "sig_1753655482",
         "pending_close_volume": 0.0
     },
-    "531183891": {
+    "541625846": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751240571",
-            "symbol": "NZDUSD",
-            "direction": "SELL",
+            "group_id": "sig_1753655482",
+            "symbol": "CADJPY",
+            "direction": "BUY",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 0.61
+                    "price": 106.2
                 },
                 {
                     "type": "LIMIT",
-                    "price": 0.616
+                    "price": 105.6
                 }
             ],
             "tps": [
-                0.605,
-                0.599,
-                0.593,
-                0.587
+                106.7,
+                107.3,
+                107.9,
+                108.5
             ],
-            "sl": 0.622,
-            "final_tp": 0.587,
+            "sl": 105.3,
+            "final_tp": 108.5,
+            "num_tps": 4
+        },
+        "original_volume": 0.24,
+        "closed_tps": [],
+        "is_secured": false,
+        "group_id": "sig_1753655482",
+        "pending_close_volume": 0.0
+    },
+    "541625853": {
+        "account_login": 98509933,
+        "signal": {
+            "group_id": "sig_1753655484",
+            "symbol": "AUDCHF",
+            "direction": "BUY",
+            "entries": [
+                {
+                    "type": "LIMIT",
+                    "price": 0.511
+                },
+                {
+                    "type": "LIMIT",
+                    "price": 0.505
+                }
+            ],
+            "tps": [
+                0.516,
+                0.522,
+                0.528,
+                0.534
+            ],
+            "sl": 0.499,
+            "final_tp": 0.534,
             "num_tps": 4
         },
         "original_volume": 0.04,
-        "closed_tps": [
-            1
-        ],
-        "is_secured": true,
-        "group_id": "sig_1751240571",
+        "closed_tps": [],
+        "is_secured": false,
+        "group_id": "sig_1753655484",
         "pending_close_volume": 0.0
     },
-    "531183935": {
+    "541625854": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751240576",
-            "symbol": "NZDCAD",
+            "group_id": "sig_1753655484",
+            "symbol": "AUDCHF",
             "direction": "BUY",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 0.825
+                    "price": 0.511
                 },
                 {
                     "type": "LIMIT",
-                    "price": 0.819
+                    "price": 0.505
                 }
             ],
             "tps": [
-                0.83,
-                0.836,
-                0.842,
-                0.848
+                0.516,
+                0.522,
+                0.528,
+                0.534
             ],
-            "sl": 0.813,
-            "final_tp": 0.848,
+            "sl": 0.499,
+            "final_tp": 0.534,
             "num_tps": 4
         },
-        "original_volume": 0.05,
+        "original_volume": 0.08,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751240576",
+        "group_id": "sig_1753655484",
         "pending_close_volume": 0.0
     },
-    "533676205": {
+    "541625857": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839691",
+            "group_id": "sig_1753655484",
+            "symbol": "AUDCAD",
+            "direction": "SELL",
+            "entries": [
+                {
+                    "type": "LIMIT",
+                    "price": 0.903
+                },
+                {
+                    "type": "LIMIT",
+                    "price": 0.909
+                }
+            ],
+            "tps": [
+                0.898,
+                0.892,
+                0.886,
+                0.88
+            ],
+            "sl": 0.915,
+            "final_tp": 0.88,
+            "num_tps": 4
+        },
+        "original_volume": 0.08,
+        "closed_tps": [],
+        "is_secured": false,
+        "group_id": "sig_1753655484",
+        "pending_close_volume": 0.0
+    },
+    "541625858": {
+        "account_login": 98509933,
+        "signal": {
+            "group_id": "sig_1753655484",
+            "symbol": "AUDCAD",
+            "direction": "SELL",
+            "entries": [
+                {
+                    "type": "LIMIT",
+                    "price": 0.903
+                },
+                {
+                    "type": "LIMIT",
+                    "price": 0.909
+                }
+            ],
+            "tps": [
+                0.898,
+                0.892,
+                0.886,
+                0.88
+            ],
+            "sl": 0.915,
+            "final_tp": 0.88,
+            "num_tps": 4
+        },
+        "original_volume": 0.12,
+        "closed_tps": [],
+        "is_secured": false,
+        "group_id": "sig_1753655484",
+        "pending_close_volume": 0.0
+    },
+    "541625859": {
+        "account_login": 98509933,
+        "signal": {
+            "group_id": "sig_1753655484",
             "symbol": "OILCash",
             "direction": "BUY",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 66.1
+                    "price": 65.5
                 },
                 {
                     "type": "LIMIT",
-                    "price": 65.5
+                    "price": 64.9
                 }
             ],
             "tps": [
+                66.0,
                 66.6,
                 67.2,
-                67.8,
-                68.4
+                67.8
             ],
-            "sl": 64.9,
-            "final_tp": 68.4,
+            "sl": 64.3,
+            "final_tp": 67.8,
             "num_tps": 4
         },
-        "original_volume": 0.4,
+        "original_volume": 0.36,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839691",
+        "group_id": "sig_1753655484",
         "pending_close_volume": 0.0
     },
-    "533676206": {
+    "541625860": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839691",
+            "group_id": "sig_1753655484",
             "symbol": "OILCash",
             "direction": "BUY",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 66.1
+                    "price": 65.5
                 },
                 {
                     "type": "LIMIT",
-                    "price": 65.5
+                    "price": 64.9
                 }
             ],
             "tps": [
+                66.0,
                 66.6,
                 67.2,
-                67.8,
-                68.4
+                67.8
             ],
-            "sl": 64.9,
-            "final_tp": 68.4,
+            "sl": 64.3,
+            "final_tp": 67.8,
             "num_tps": 4
         },
-        "original_volume": 0.8,
+        "original_volume": 0.72,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839691",
+        "group_id": "sig_1753655484",
         "pending_close_volume": 0.0
     },
-    "533676207": {
+    "541625868": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839692",
-            "symbol": "JP225Cash",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 40500.0
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 40700.0
-                }
-            ],
-            "tps": [
-                40300.0,
-                40000.0,
-                39700.0,
-                39400.0
-            ],
-            "sl": 40900.0,
-            "final_tp": 39400.0,
-            "num_tps": 4
-        },
-        "original_volume": 0.4,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839692",
-        "pending_close_volume": 0.0
-    },
-    "533676208": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839692",
-            "symbol": "JP225Cash",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 40500.0
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 40700.0
-                }
-            ],
-            "tps": [
-                40300.0,
-                40000.0,
-                39700.0,
-                39400.0
-            ],
-            "sl": 40900.0,
-            "final_tp": 39400.0,
-            "num_tps": 4
-        },
-        "original_volume": 0.4,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839692",
-        "pending_close_volume": 0.0
-    },
-    "533676209": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839692",
-            "symbol": "JP225Cash",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 39300.0
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 39100.0
-                }
-            ],
-            "tps": [
-                39500.0,
-                39800.0,
-                40100.0,
-                40400.0
-            ],
-            "sl": 38900.0,
-            "final_tp": 40400.0,
-            "num_tps": 4
-        },
-        "original_volume": 0.4,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839692",
-        "pending_close_volume": 0.0
-    },
-    "533676210": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839692",
-            "symbol": "JP225Cash",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 39300.0
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 39100.0
-                }
-            ],
-            "tps": [
-                39500.0,
-                39800.0,
-                40100.0,
-                40400.0
-            ],
-            "sl": 38900.0,
-            "final_tp": 40400.0,
-            "num_tps": 4
-        },
-        "original_volume": 0.4,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839692",
-        "pending_close_volume": 0.0
-    },
-    "533676211": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839693",
+            "group_id": "sig_1753655486",
             "symbol": "US100Cash",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 21800.0
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 21600.0
-                }
-            ],
-            "tps": [
-                22000.0,
-                22300.0,
-                22600.0,
-                22900.0
-            ],
-            "sl": 21300.0,
-            "final_tp": 22900.0,
-            "num_tps": 4
-        },
-        "original_volume": 0.4,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839693",
-        "pending_close_volume": 0.0
-    },
-    "533676215": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839693",
-            "symbol": "US100Cash",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 21800.0
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 21600.0
-                }
-            ],
-            "tps": [
-                22000.0,
-                22300.0,
-                22600.0,
-                22900.0
-            ],
-            "sl": 21300.0,
-            "final_tp": 22900.0,
-            "num_tps": 4
-        },
-        "original_volume": 0.4,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839693",
-        "pending_close_volume": 0.0
-    },
-    "533676218": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839694",
-            "symbol": "US30Cash",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 44500.0
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 44300.0
-                }
-            ],
-            "tps": [
-                44700.0,
-                45000.0,
-                45300.0,
-                45600.0
-            ],
-            "sl": 44100.0,
-            "final_tp": 45600.0,
-            "num_tps": 4
-        },
-        "original_volume": 0.4,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839694",
-        "pending_close_volume": 0.0
-    },
-    "533676221": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839694",
-            "symbol": "US30Cash",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 44500.0
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 44300.0
-                }
-            ],
-            "tps": [
-                44700.0,
-                45000.0,
-                45300.0,
-                45600.0
-            ],
-            "sl": 44100.0,
-            "final_tp": 45600.0,
-            "num_tps": 4
-        },
-        "original_volume": 0.4,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839694",
-        "pending_close_volume": 0.0
-    },
-    "533676224": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839694",
-            "symbol": "USDJPY",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 142.1
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 141.5
-                }
-            ],
-            "tps": [
-                142.6,
-                143.2,
-                143.8,
-                144.4
-            ],
-            "sl": 140.9,
-            "final_tp": 144.4,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839694",
-        "pending_close_volume": 0.0
-    },
-    "533676228": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839694",
-            "symbol": "USDJPY",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 142.1
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 141.5
-                }
-            ],
-            "tps": [
-                142.6,
-                143.2,
-                143.8,
-                144.4
-            ],
-            "sl": 140.9,
-            "final_tp": 144.4,
-            "num_tps": 4
-        },
-        "original_volume": 0.12,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839694",
-        "pending_close_volume": 0.0
-    },
-    "533676241": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839695",
-            "symbol": "USDJPY",
             "direction": "SELL",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 145.6
+                    "price": 23550.0
                 },
                 {
                     "type": "LIMIT",
-                    "price": 146.2
+                    "price": 23750.0
                 }
             ],
             "tps": [
-                145.1,
-                144.5,
-                143.9,
-                143.3
+                23300.0,
+                23000.0,
+                22700.0,
+                22400.0
             ],
-            "sl": 146.8,
-            "final_tp": 143.3,
+            "sl": 24000.0,
+            "final_tp": 22400.0,
             "num_tps": 4
         },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839695",
+        "original_volume": 0.4,
+        "closed_tps": [
+            1,
+            2,
+            3
+        ],
+        "is_secured": true,
+        "group_id": "sig_1753655486",
         "pending_close_volume": 0.0
     },
-    "533676243": {
+    "541625904": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839695",
-            "symbol": "USDJPY",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 145.6
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 146.2
-                }
-            ],
-            "tps": [
-                145.1,
-                144.5,
-                143.9,
-                143.3
-            ],
-            "sl": 146.8,
-            "final_tp": 143.3,
-            "num_tps": 4
-        },
-        "original_volume": 0.12,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839695",
-        "pending_close_volume": 0.0
-    },
-    "533676244": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839695",
-            "symbol": "USDCAD",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.346
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.34
-                }
-            ],
-            "tps": [
-                1.351,
-                1.357,
-                1.363,
-                1.369
-            ],
-            "sl": 1.334,
-            "final_tp": 1.369,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839695",
-        "pending_close_volume": 0.0
-    },
-    "533676246": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839695",
-            "symbol": "USDCAD",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.346
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.34
-                }
-            ],
-            "tps": [
-                1.351,
-                1.357,
-                1.363,
-                1.369
-            ],
-            "sl": 1.334,
-            "final_tp": 1.369,
-            "num_tps": 4
-        },
-        "original_volume": 0.12,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839695",
-        "pending_close_volume": 0.0
-    },
-    "533676247": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839696",
-            "symbol": "USDCAD",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.38
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.386
-                }
-            ],
-            "tps": [
-                1.375,
-                1.369,
-                1.363,
-                1.357
-            ],
-            "sl": 1.392,
-            "final_tp": 1.357,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839696",
-        "pending_close_volume": 0.0
-    },
-    "533676250": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839696",
-            "symbol": "USDCAD",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.38
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.386
-                }
-            ],
-            "tps": [
-                1.375,
-                1.369,
-                1.363,
-                1.357
-            ],
-            "sl": 1.392,
-            "final_tp": 1.357,
-            "num_tps": 4
-        },
-        "original_volume": 0.12,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839696",
-        "pending_close_volume": 0.0
-    },
-    "533676254": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839697",
+            "group_id": "sig_1753655489",
             "symbol": "NZDJPY",
-            "direction": "SELL",
+            "direction": "BUY",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 88.0
+                    "price": 87.6
                 },
                 {
                     "type": "LIMIT",
-                    "price": 88.6
+                    "price": 87.0
                 }
             ],
             "tps": [
-                87.5,
-                86.9,
-                86.3,
-                85.7
+                88.1,
+                88.7,
+                89.3,
+                89.9
             ],
-            "sl": 89.2,
-            "final_tp": 85.7,
+            "sl": 86.4,
+            "final_tp": 89.9,
             "num_tps": 4
         },
         "original_volume": 0.08,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839697",
+        "group_id": "sig_1753655489",
         "pending_close_volume": 0.0
     },
-    "533676256": {
+    "541625905": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839697",
+            "group_id": "sig_1753655489",
             "symbol": "NZDJPY",
-            "direction": "SELL",
+            "direction": "BUY",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 88.0
+                    "price": 87.6
                 },
                 {
                     "type": "LIMIT",
-                    "price": 88.6
+                    "price": 87.0
                 }
             ],
             "tps": [
-                87.5,
-                86.9,
-                86.3,
-                85.7
+                88.1,
+                88.7,
+                89.3,
+                89.9
             ],
-            "sl": 89.2,
-            "final_tp": 85.7,
+            "sl": 86.4,
+            "final_tp": 89.9,
             "num_tps": 4
         },
         "original_volume": 0.12,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839697",
+        "group_id": "sig_1753655489",
         "pending_close_volume": 0.0
     },
-    "533676259": {
+    "541625907": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839697",
+            "group_id": "sig_1753655489",
             "symbol": "NZDCHF",
             "direction": "SELL",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 0.491
+                    "price": 0.486
                 },
                 {
                     "type": "LIMIT",
-                    "price": 0.497
+                    "price": 0.492
                 }
             ],
             "tps": [
-                0.486,
-                0.48,
-                0.474,
-                0.468
+                0.481,
+                0.475,
+                0.469,
+                0.463
             ],
-            "sl": 0.503,
-            "final_tp": 0.468,
+            "sl": 0.498,
+            "final_tp": 0.463,
             "num_tps": 4
         },
         "original_volume": 0.04,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839697",
+        "group_id": "sig_1753655489",
         "pending_close_volume": 0.0
     },
-    "533676265": {
+    "541625909": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839697",
+            "group_id": "sig_1753655489",
             "symbol": "NZDCHF",
             "direction": "SELL",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 0.491
+                    "price": 0.486
                 },
                 {
                     "type": "LIMIT",
-                    "price": 0.497
+                    "price": 0.492
                 }
             ],
             "tps": [
-                0.486,
-                0.48,
-                0.474,
-                0.468
+                0.481,
+                0.475,
+                0.469,
+                0.463
             ],
-            "sl": 0.503,
-            "final_tp": 0.468,
+            "sl": 0.498,
+            "final_tp": 0.463,
             "num_tps": 4
         },
         "original_volume": 0.08,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839697",
+        "group_id": "sig_1753655489",
         "pending_close_volume": 0.0
     },
-    "533676292": {
+    "541625914": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839697",
-            "symbol": "NZDCHF",
+            "group_id": "sig_1753655490",
+            "symbol": "GBPCHF",
             "direction": "BUY",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 0.471
+                    "price": 1.062
                 },
                 {
                     "type": "LIMIT",
-                    "price": 0.465
+                    "price": 1.056
                 }
             ],
             "tps": [
-                0.476,
-                0.482,
-                0.488,
-                0.494
+                1.067,
+                1.073,
+                1.079,
+                1.085
             ],
-            "sl": 0.459,
-            "final_tp": 0.494,
+            "sl": 1.05,
+            "final_tp": 1.085,
             "num_tps": 4
         },
         "original_volume": 0.04,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839697",
+        "group_id": "sig_1753655490",
         "pending_close_volume": 0.0
     },
-    "533676500": {
+    "541625915": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839697",
-            "symbol": "NZDCHF",
+            "group_id": "sig_1753655490",
+            "symbol": "GBPCHF",
             "direction": "BUY",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 0.471
+                    "price": 1.062
                 },
                 {
                     "type": "LIMIT",
-                    "price": 0.465
+                    "price": 1.056
                 }
             ],
             "tps": [
-                0.476,
-                0.482,
-                0.488,
-                0.494
+                1.067,
+                1.073,
+                1.079,
+                1.085
             ],
-            "sl": 0.459,
-            "final_tp": 0.494,
+            "sl": 1.05,
+            "final_tp": 1.085,
             "num_tps": 4
         },
         "original_volume": 0.08,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839697",
+        "group_id": "sig_1753655490",
         "pending_close_volume": 0.0
     },
-    "533676618": {
+    "541625916": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839698",
-            "symbol": "GBPUSD",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.347
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.341
-                }
-            ],
-            "tps": [
-                1.352,
-                1.358,
-                1.364,
-                1.37
-            ],
-            "sl": 1.335,
-            "final_tp": 1.37,
-            "num_tps": 4
-        },
-        "original_volume": 0.04,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839698",
-        "pending_close_volume": 0.0
-    },
-    "533676622": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839698",
-            "symbol": "GBPUSD",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.347
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.341
-                }
-            ],
-            "tps": [
-                1.352,
-                1.358,
-                1.364,
-                1.37
-            ],
-            "sl": 1.335,
-            "final_tp": 1.37,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839698",
-        "pending_close_volume": 0.0
-    },
-    "533676629": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839699",
-            "symbol": "GBPUSD",
+            "group_id": "sig_1753655490",
+            "symbol": "GBPCAD",
             "direction": "SELL",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 1.38
+                    "price": 1.851
                 },
                 {
                     "type": "LIMIT",
-                    "price": 1.386
+                    "price": 1.857
                 }
             ],
             "tps": [
-                1.375,
-                1.369,
-                1.363,
-                1.357
+                1.846,
+                1.84,
+                1.834,
+                1.828
             ],
-            "sl": 1.392,
-            "final_tp": 1.357,
-            "num_tps": 4
-        },
-        "original_volume": 0.04,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839699",
-        "pending_close_volume": 0.0
-    },
-    "533676631": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839699",
-            "symbol": "GBPUSD",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.38
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.386
-                }
-            ],
-            "tps": [
-                1.375,
-                1.369,
-                1.363,
-                1.357
-            ],
-            "sl": 1.392,
-            "final_tp": 1.357,
+            "sl": 1.863,
+            "final_tp": 1.828,
             "num_tps": 4
         },
         "original_volume": 0.08,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839699",
+        "group_id": "sig_1753655490",
         "pending_close_volume": 0.0
     },
-    "533676634": {
+    "541625917": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839699",
-            "symbol": "GBPNZD",
+            "group_id": "sig_1753655490",
+            "symbol": "GBPCAD",
             "direction": "SELL",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 2.271
+                    "price": 1.851
                 },
                 {
                     "type": "LIMIT",
-                    "price": 2.277
+                    "price": 1.857
                 }
             ],
             "tps": [
-                2.266,
-                2.26,
-                2.254,
-                2.248
+                1.846,
+                1.84,
+                1.834,
+                1.828
             ],
-            "sl": 2.283,
-            "final_tp": 2.248,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839699",
-        "pending_close_volume": 0.0
-    },
-    "533676637": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839699",
-            "symbol": "GBPNZD",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 2.271
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 2.277
-                }
-            ],
-            "tps": [
-                2.266,
-                2.26,
-                2.254,
-                2.248
-            ],
-            "sl": 2.283,
-            "final_tp": 2.248,
-            "num_tps": 4
-        },
-        "original_volume": 0.16,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839699",
-        "pending_close_volume": 0.0
-    },
-    "533676640": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839699",
-            "symbol": "GBPJPY",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 195.4
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 194.8
-                }
-            ],
-            "tps": [
-                195.9,
-                196.5,
-                197.1,
-                197.7
-            ],
-            "sl": 194.2,
-            "final_tp": 197.7,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839699",
-        "pending_close_volume": 0.0
-    },
-    "533676642": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839699",
-            "symbol": "GBPJPY",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 195.4
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 194.8
-                }
-            ],
-            "tps": [
-                195.9,
-                196.5,
-                197.1,
-                197.7
-            ],
-            "sl": 194.2,
-            "final_tp": 197.7,
+            "sl": 1.863,
+            "final_tp": 1.828,
             "num_tps": 4
         },
         "original_volume": 0.12,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839699",
+        "group_id": "sig_1753655490",
         "pending_close_volume": 0.0
     },
-    "533676643": {
+    "541625918": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839700",
-            "symbol": "GBPCAD",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.069
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.063
-                }
-            ],
-            "tps": [
-                1.074,
-                1.08,
-                1.086,
-                1.092
-            ],
-            "sl": 1.057,
-            "final_tp": 1.092,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839700",
-        "pending_close_volume": 0.0
-    },
-    "533676645": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839700",
-            "symbol": "GBPCAD",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.069
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.063
-                }
-            ],
-            "tps": [
-                1.074,
-                1.08,
-                1.086,
-                1.092
-            ],
-            "sl": 1.057,
-            "final_tp": 1.092,
-            "num_tps": 4
-        },
-        "original_volume": 0.12,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839700",
-        "pending_close_volume": 0.0
-    },
-    "533676646": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839701",
-            "symbol": "GBPCAD",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.862
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.868
-                }
-            ],
-            "tps": [
-                1.857,
-                1.851,
-                1.845,
-                1.839
-            ],
-            "sl": 1.874,
-            "final_tp": 1.839,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839701",
-        "pending_close_volume": 0.0
-    },
-    "533676649": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839701",
-            "symbol": "GBPCAD",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.862
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.868
-                }
-            ],
-            "tps": [
-                1.857,
-                1.851,
-                1.845,
-                1.839
-            ],
-            "sl": 1.874,
-            "final_tp": 1.839,
-            "num_tps": 4
-        },
-        "original_volume": 0.12,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839701",
-        "pending_close_volume": 0.0
-    },
-    "533676651": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839702",
+            "group_id": "sig_1753655491",
             "symbol": "GBPAUD",
-            "direction": "SELL",
+            "direction": "BUY",
             "entries": [
                 {
-                    "type": "MARKET",
-                    "price": null
+                    "type": "LIMIT",
+                    "price": 2.027
                 },
                 {
                     "type": "LIMIT",
-                    "price": 2.088
+                    "price": 2.021
                 }
             ],
             "tps": [
-                2.076,
-                2.07,
-                2.064,
-                2.058
+                2.032,
+                2.038,
+                2.044,
+                2.05
             ],
-            "sl": 2.094,
-            "final_tp": 2.058,
+            "sl": 2.015,
+            "final_tp": 2.05,
             "num_tps": 4
         },
         "original_volume": 0.08,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839702",
+        "group_id": "sig_1753655491",
         "pending_close_volume": 0.0
     },
-    "533676657": {
+    "541625919": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839702",
+            "group_id": "sig_1753655491",
             "symbol": "GBPAUD",
-            "direction": "SELL",
+            "direction": "BUY",
             "entries": [
                 {
-                    "type": "MARKET",
-                    "price": null
+                    "type": "LIMIT",
+                    "price": 2.027
                 },
                 {
                     "type": "LIMIT",
-                    "price": 2.088
+                    "price": 2.021
                 }
             ],
             "tps": [
-                2.076,
-                2.07,
-                2.064,
-                2.058
+                2.032,
+                2.038,
+                2.044,
+                2.05
             ],
-            "sl": 2.094,
-            "final_tp": 2.058,
+            "sl": 2.015,
+            "final_tp": 2.05,
             "num_tps": 4
         },
-        "original_volume": 0.16,
+        "original_volume": 0.12,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839702",
+        "group_id": "sig_1753655491",
         "pending_close_volume": 0.0
     },
-    "533676660": {
+    "541625921": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839702",
+            "group_id": "sig_1753655491",
             "symbol": "EURUSD",
-            "direction": "BUY",
+            "direction": "SELL",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 1.17
+                    "price": 1.193
                 },
                 {
                     "type": "LIMIT",
-                    "price": 1.164
+                    "price": 1.199
                 }
             ],
             "tps": [
-                1.175,
-                1.181,
-                1.187,
-                1.193
+                1.188,
+                1.182,
+                1.176,
+                1.17
             ],
-            "sl": 1.158,
-            "final_tp": 1.193,
+            "sl": 1.205,
+            "final_tp": 1.17,
             "num_tps": 4
         },
         "original_volume": 0.04,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839702",
+        "group_id": "sig_1753655491",
         "pending_close_volume": 0.0
     },
-    "533676665": {
+    "541625922": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839702",
+            "group_id": "sig_1753655491",
             "symbol": "EURUSD",
-            "direction": "BUY",
+            "direction": "SELL",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 1.17
+                    "price": 1.193
                 },
                 {
                     "type": "LIMIT",
-                    "price": 1.164
+                    "price": 1.199
                 }
             ],
             "tps": [
-                1.175,
-                1.181,
-                1.187,
-                1.193
+                1.188,
+                1.182,
+                1.176,
+                1.17
             ],
-            "sl": 1.158,
-            "final_tp": 1.193,
+            "sl": 1.205,
+            "final_tp": 1.17,
             "num_tps": 4
         },
         "original_volume": 0.08,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839702",
+        "group_id": "sig_1753655491",
         "pending_close_volume": 0.0
     },
-    "533676672": {
+    "541625936": {
         "account_login": 98509933,
         "signal": {
-            "group_id": "sig_1751839703",
-            "symbol": "EURGBP",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 0.88
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 0.886
-                }
-            ],
-            "tps": [
-                0.875,
-                0.869,
-                0.863,
-                0.857
-            ],
-            "sl": 0.892,
-            "final_tp": 0.857,
-            "num_tps": 4
-        },
-        "original_volume": 0.04,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839703",
-        "pending_close_volume": 0.0
-    },
-    "533676675": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839703",
-            "symbol": "EURGBP",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 0.88
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 0.886
-                }
-            ],
-            "tps": [
-                0.875,
-                0.869,
-                0.863,
-                0.857
-            ],
-            "sl": 0.892,
-            "final_tp": 0.857,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839703",
-        "pending_close_volume": 0.0
-    },
-    "533676680": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839704",
-            "symbol": "EURJPY",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 169.7
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 169.1
-                }
-            ],
-            "tps": [
-                170.2,
-                170.8,
-                171.4,
-                172.0
-            ],
-            "sl": 168.5,
-            "final_tp": 172.0,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839704",
-        "pending_close_volume": 0.0
-    },
-    "533676682": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839704",
-            "symbol": "EURJPY",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 169.7
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 169.1
-                }
-            ],
-            "tps": [
-                170.2,
-                170.8,
-                171.4,
-                172.0
-            ],
-            "sl": 168.5,
-            "final_tp": 172.0,
-            "num_tps": 4
-        },
-        "original_volume": 0.12,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839704",
-        "pending_close_volume": 0.0
-    },
-    "533676683": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839705",
-            "symbol": "EURCHF",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 0.94
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 0.946
-                }
-            ],
-            "tps": [
-                0.935,
-                0.929,
-                0.923,
-                0.917
-            ],
-            "sl": 0.952,
-            "final_tp": 0.917,
-            "num_tps": 4
-        },
-        "original_volume": 0.04,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839705",
-        "pending_close_volume": 0.0
-    },
-    "533676684": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839705",
-            "symbol": "EURCHF",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 0.94
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 0.946
-                }
-            ],
-            "tps": [
-                0.935,
-                0.929,
-                0.923,
-                0.917
-            ],
-            "sl": 0.952,
-            "final_tp": 0.917,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839705",
-        "pending_close_volume": 0.0
-    },
-    "533676686": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839705",
-            "symbol": "EURCAD",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.613
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.619
-                }
-            ],
-            "tps": [
-                1.608,
-                1.602,
-                1.596,
-                1.59
-            ],
-            "sl": 1.625,
-            "final_tp": 1.59,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839705",
-        "pending_close_volume": 0.0
-    },
-    "533676690": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839705",
-            "symbol": "EURCAD",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.613
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.619
-                }
-            ],
-            "tps": [
-                1.608,
-                1.602,
-                1.596,
-                1.59
-            ],
-            "sl": 1.625,
-            "final_tp": 1.59,
-            "num_tps": 4
-        },
-        "original_volume": 0.12,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839705",
-        "pending_close_volume": 0.0
-    },
-    "533676691": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839705",
+            "group_id": "sig_1753655493",
             "symbol": "EURAUD",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.781
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.775
-                }
-            ],
-            "tps": [
-                1.786,
-                1.792,
-                1.798,
-                1.804
-            ],
-            "sl": 1.769,
-            "final_tp": 1.804,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839705",
-        "pending_close_volume": 0.0
-    },
-    "533676695": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839705",
-            "symbol": "EURAUD",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 1.781
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 1.775
-                }
-            ],
-            "tps": [
-                1.786,
-                1.792,
-                1.798,
-                1.804
-            ],
-            "sl": 1.769,
-            "final_tp": 1.804,
-            "num_tps": 4
-        },
-        "original_volume": 0.16,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839705",
-        "pending_close_volume": 0.0
-    },
-    "533676697": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839706",
-            "symbol": "AUDCHF",
             "direction": "SELL",
             "entries": [
                 {
                     "type": "LIMIT",
-                    "price": 0.536
+                    "price": 1.809
                 },
                 {
                     "type": "LIMIT",
-                    "price": 0.542
+                    "price": 1.815
                 }
             ],
             "tps": [
-                0.531,
-                0.525,
-                0.519,
-                0.513
+                1.804,
+                1.798,
+                1.792,
+                1.786
             ],
-            "sl": 0.548,
-            "final_tp": 0.513,
-            "num_tps": 4
-        },
-        "original_volume": 0.04,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839706",
-        "pending_close_volume": 0.0
-    },
-    "533676699": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839706",
-            "symbol": "AUDCHF",
-            "direction": "SELL",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 0.536
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 0.542
-                }
-            ],
-            "tps": [
-                0.531,
-                0.525,
-                0.519,
-                0.513
-            ],
-            "sl": 0.548,
-            "final_tp": 0.513,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839706",
-        "pending_close_volume": 0.0
-    },
-    "533676711": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839707",
-            "symbol": "AUDCAD",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 0.882
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 0.876
-                }
-            ],
-            "tps": [
-                0.887,
-                0.893,
-                0.899,
-                0.905
-            ],
-            "sl": 0.87,
-            "final_tp": 0.905,
-            "num_tps": 4
-        },
-        "original_volume": 0.08,
-        "closed_tps": [],
-        "is_secured": false,
-        "group_id": "sig_1751839707",
-        "pending_close_volume": 0.0
-    },
-    "533676717": {
-        "account_login": 98509933,
-        "signal": {
-            "group_id": "sig_1751839707",
-            "symbol": "AUDCAD",
-            "direction": "BUY",
-            "entries": [
-                {
-                    "type": "LIMIT",
-                    "price": 0.882
-                },
-                {
-                    "type": "LIMIT",
-                    "price": 0.876
-                }
-            ],
-            "tps": [
-                0.887,
-                0.893,
-                0.899,
-                0.905
-            ],
-            "sl": 0.87,
-            "final_tp": 0.905,
+            "sl": 1.821,
+            "final_tp": 1.786,
             "num_tps": 4
         },
         "original_volume": 0.12,
         "closed_tps": [],
         "is_secured": false,
-        "group_id": "sig_1751839707",
+        "group_id": "sig_1753655493",
         "pending_close_volume": 0.0
     }
 }

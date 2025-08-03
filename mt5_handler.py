@@ -72,6 +72,14 @@ class MT5Handler:
         if not symbol_info:
             logging.warning(f"Could not get symbol info for {broker_symbol}.")
             return None
+    # Add a specific, high-priority rule for GOLD
+        if "GOLD" in broker_symbol.upper() or "XAU" in broker_symbol.upper():
+            # For Gold (XAUUSD), which usually has 2 or 3 digits (e.g., 2345.12)
+            # A "pip" is typically the first decimal place (0.1)
+            # A "point" is the last decimal place (0.01)
+            # If your broker defines a pip as a full dollar move, change this to 1.0
+            return 0.1 
+
         if "CASH" in broker_symbol.upper() or "JP225" in broker_symbol.upper() or symbol_info.digits <= 1:
             return 1.0
         if "JPY" in broker_symbol.upper():
